@@ -1406,7 +1406,7 @@
     ],
     "kasztanowiec": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "<olive_drab>-zmc <grey>"
       }
     ],
@@ -1518,7 +1518,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<LimeGreen>+kon?<grey>"
+        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "lubczyk": [
@@ -1630,6 +1630,10 @@
         "action": "powachaj",
         "effect": "--",
         "dont_bind": true
+      },
+      {
+        "action": "?przezuj",
+        "effect": "???"
       }
     ],
     "mieta": [
@@ -1731,8 +1735,8 @@
     ],
     "ostrozen": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "jadalny",
+        "action": "zjedz",
+        "effect": "+odp",
         "dont_bind": true
       }
     ],
@@ -1748,8 +1752,8 @@
         "effect": "<LimeGreen>+kon<grey> +kac"
       },
       {
-        "action": "[...NSPR...]   przezuj",
-        "effect": "odtruwa?"
+        "action": "przezuj",
+        "effect": "odtr"
       }
     ],
     "pierscieniak": [
@@ -1894,8 +1898,12 @@
     ],
     "rumianek": [
       {
-        "action": "[...NSPR...]   wdychnij",
-        "effect": "odtruwa"
+        "action": "powachaj",
+        "effect": "?odtr"
+      },
+      {
+        "action": "przyloz",
+        "effect": "?odtr"
       }
     ],
     "serce_kapitana": [
@@ -2040,12 +2048,16 @@
         "action": "zjedz",
         "effect": "jadalny",
         "dont_bind": true
+      },
+      {
+        "action": "wetrzyj",
+        "effect": "+odw"
       }
     ],
     "ususzona_konopia": [
       {
-        "action": "[...NSPR...]   spal",
-        "effect": "odp na magie"
+        "action": "spal",
+        "effect": "+odp"
       }
     ],
     "ususzona_macznica": [
@@ -2076,7 +2088,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "[...NSPR...]   ?"
+        "effect": "<olive_drab>-zmc<grey>"
       },
       {
         "action": "powachaj",
@@ -2105,14 +2117,14 @@
     "ususzony_szafran": [
       {
         "action": "zjedz",
-        "effect": "--",
+        "effect": "<LimeGreen>+kon<grey>",
         "dont_bind": true
       }
     ],
     "wrotycz": [
       {
-        "action": "[...NSPR...]   powachaj",
-        "effect": "+odp"
+        "action": "powachaj",
+        "effect": "?odtr"
       }
     ]
   }
