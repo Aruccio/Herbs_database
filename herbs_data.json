@@ -1048,6 +1048,14 @@
       "mnoga_dopelniacz": "rozgalezionych owlosionych ususzonych lodyg",
       "mnoga_biernik": "rozgalezione owlosione ususzone lodygi"
     },
+    "ususzony_lulek": {
+      "mianownik": "brudnozolty fioletowo-zylkowany ususzony kwiat",
+      "dopelniacz": "brudnozoltego fioletowo-zylkowanego ususzonego kwiatu",
+      "biernik": "brudnozolty fioletowo-zylkowany ususzony kwiat",
+      "mnoga_mianownik": "brudnozolte fioletowo-zylkowane ususzone kwiaty",
+      "mnoga_dopelniacz": "brudnozoltych fioletowo-zylkowanych ususzonych kwiatow",
+      "mnoga_biernik": "brudnozolte fioletowo-zylkowane ususzone kwiaty"
+    },
     "ususzony_przelot": {
       "mianownik": "kremowy owlosiony ususzony kwiat",
       "dopelniacz": "kremowego owlosionego ususzonego kwiatu",
