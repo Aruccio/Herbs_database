@@ -3,7 +3,7 @@
     "aralia": {
       "mianownik": "szary kolczasty korzen",
       "dopelniacz": "szarego kolczastego korzenia",
-      "biernik": "szarego kolczastego korzenia",
+      "biernik": "szary kolczasty korzen",
       "mnoga_mianownik": "szare kolczaste korzenie",
       "mnoga_dopelniacz": "szarych kolczastych korzeni",
       "mnoga_biernik": "szare kolczaste korzenie"
@@ -1048,6 +1048,14 @@
       "mnoga_dopelniacz": "rozgalezionych owlosionych ususzonych lodyg",
       "mnoga_biernik": "rozgalezione owlosione ususzone lodygi"
     },
+    "ususzony_lulek": {
+      "mianownik": "brudnozolty fioletowo-zylkowany ususzony kwiat",
+      "dopelniacz": "brudnozoltego fioletowo-zylkowanego ususzonego kwiatu",
+      "biernik": "brudnozolty fioletowo-zylkowany ususzony kwiat",
+      "mnoga_mianownik": "brudnozolte fioletowo-zylkowane ususzone kwiaty",
+      "mnoga_dopelniacz": "brudnozoltych fioletowo-zylkowanych ususzonych kwiatow",
+      "mnoga_biernik": "brudnozolte fioletowo-zylkowane ususzone kwiaty"
+    },
     "ususzony_przelot": {
       "mianownik": "kremowy owlosiony ususzony kwiat",
       "dopelniacz": "kremowego owlosionego ususzonego kwiatu",
@@ -1104,7 +1112,7 @@
     ],
     "bagno": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "-wyt"
       }
     ],
@@ -1120,12 +1128,12 @@
     ],
     "bez": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       },
       {
-        "action": "przezuj",
+        "action": "??przezuj",
         "effect": "odtruwa"
       }
     ],
@@ -1142,42 +1150,42 @@
     ],
     "bobotrutka": [
       {
-        "action": "rozgryz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "tr[-kon, -sp]",
         "dont_bind": true
       }
     ],
     "boldoa": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalna",
         "dont_bind": true
       }
     ],
     "borowik_krolewski": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
     ],
     "borowik_szatanski": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "trujacy",
         "dont_bind": true
       }
     ],
     "borowik_szlachetny": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
     ],
     "borowka": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1192,13 +1200,17 @@
     "bylica_cytwarowa": [
       {
         "action": "zjedz",
-        "effect": "trj",
+        "effect": "+glod",
         "dont_bind": true
+      },
+      {
+        "action": "wetrzyj",
+        "effect": "odtrutka?"
       }
     ],
     "bylica_piolun": [
       {
-        "action": "rozgryz",
+        "action": "??rozgryz",
         "effect": "+sil +gld"
       }
     ],
@@ -1221,7 +1233,7 @@
     ],
     "cebula": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1255,8 +1267,8 @@
     ],
     "ciemiezyca": [
       {
-        "action": "zjedz",
-        "effect": "-spo",
+        "action": "??zjedz",
+        "effect": "-sp",
         "dont_bind": true
       }
     ],
@@ -1268,7 +1280,7 @@
     ],
     "czosnek": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1282,12 +1294,13 @@
     "deren": [
       {
         "action": "zjedz",
-        "effect": "+wyt +prg"
+        "effect": "+prg",
+        "dont_bind": true
       }
     ],
     "drabik": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1316,33 +1329,33 @@
     ],
     "grabiorog": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "-man"
       }
     ],
     "grzybien": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
     ],
     "hubka": [
       {
-        "action": "",
+        "action": "??",
         "effect": "rozpalenie ognia"
       }
     ],
     "hyzop": [
       {
         "action": "zjedz",
-        "effect": "+gld",
+        "effect": "-glod -mana",
         "dont_bind": true
       }
     ],
     "jagoda": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalna",
         "dont_bind": true
       }
@@ -1356,39 +1369,38 @@
     ],
     "jaskier": [
       {
-        "action": "rozgryz",
+        "action": "??rozgryz",
         "effect": "odtruwa"
       },
       {
         "action": "przezuj",
-        "effect": "oslepienie",
+        "effect": "tr[-sp]",
         "dont_bind": true
       }
     ],
     "jemiola": [
       {
         "action": "zjedz",
-        "effect": "-wyt -sil",
-        "dont_bind": true
+        "effect": "+odp"
       }
     ],
     "jezyna": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
     ],
     "kakol": [
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "+gld trujacy",
         "dont_bind": true
       }
     ],
     "kasztan": [
       {
-        "action": "",
+        "action": "???",
         "effect": "--"
       }
     ],
@@ -1407,11 +1419,11 @@
     ],
     "kola": [
       {
-        "action": "rozgryz",
+        "action": "??rozgryz",
         "effect": "+wyt <olive_drab>-zmc <grey> -gld"
       },
       {
-        "action": "zjedz",
+        "action": "??zjedz",
         "effect": "-gld",
         "dont_bind": true
       }
@@ -1423,12 +1435,13 @@
       },
       {
         "action": "zjedz",
-        "effect": "+kon"
+        "effect": "<olive_drab>-zmc <grey>",
+        "don_bind": true
       }
     ],
     "konopie": [
       {
-        "action": "spal",
+        "action": "??spal",
         "effect": "odp na magie"
       }
     ],
@@ -1439,7 +1452,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "trj",
+        "effect": "tr[zmc+ zrc-]",
         "dont_bind": true
       }
     ],
