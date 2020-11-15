@@ -1111,7 +1111,7 @@
     ],
     "bagno": [
       {
-        "action": "<orchid> zjedz <grey>",
+        "action": "zjedz",
         "effect": "<orchid> -wyt <grey>"
       }
     ],
@@ -1127,12 +1127,12 @@
     ],
     "bez": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       },
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
@@ -1156,35 +1156,35 @@
     ],
     "boldoa": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       }
     ],
     "borowik_krolewski": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "borowik_szatanski": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trujacy<grey>",
         "dont_bind": true
       }
     ],
     "borowik_szlachetny": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "borowka": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
@@ -1213,7 +1213,7 @@
     ],
     "bylica_piolun": [
       {
-        "action": "<orchid>rozgryz<grey>",
+        "action": "rozgryz",
         "effect": "<orchid>+sil +gld<grey>"
       }
     ],
@@ -1236,7 +1236,7 @@
     ],
     "cebula": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
@@ -1270,8 +1270,8 @@
     ],
     "ciemiezyca": [
       {
-        "action": "<plum>zjedz<grey>",
-        "effect": "<plum>-spo<grey>",
+        "action": "zjedz",
+        "effect": "<orchid>-spo<grey>",
         "dont_bind": true
       }
     ],
@@ -1283,7 +1283,7 @@
     ],
     "czosnek": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
@@ -1303,14 +1303,14 @@
     ],
     "drabik": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "drath": [
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>+wyt<grey>"
       }
     ],
@@ -1337,20 +1337,20 @@
     ],
     "grabiorog": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>-man<grey>"
       }
     ],
     "grzybien": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "hubka": [
       {
-        "action": "",
+        "action": "???",
         "effect": "<orchid>rozpalenie ognia<grey>"
       }
     ],
@@ -1363,7 +1363,7 @@
     ],
     "jagoda": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       }
@@ -1394,21 +1394,21 @@
     ],
     "jezyna": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "kakol": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>+gld trujacy<grey>",
         "dont_bind": true
       }
     ],
     "kasztan": [
       {
-        "action": "<orchid> ???<grey>",
+        "action": " ???",
         "effect": "<orchid>???<grey>"
       }
     ],
@@ -1427,11 +1427,11 @@
     ],
     "kola": [
       {
-        "action": "<orchid>rozgryz<grey>",
+        "action": "rozgryz",
         "effect": "<orchid>+wyt <olive_drab>-zmc <grey> -gld"
       },
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>-gld<grey>",
         "dont_bind": true
       }
@@ -1450,7 +1450,7 @@
     ],
     "konopie": [
       {
-        "action": "<orchid>spal<grey>",
+        "action": "spal",
         "effect": "<orchid>odp na magie<grey>"
       }
     ],
@@ -1467,7 +1467,7 @@
     ],
     "kozlarz": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
@@ -1480,32 +1480,32 @@
     ],
     "kruszyna": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>+gld<grey>",
         "dont_bind": true
       }
     ],
     "krzyzownica": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       },
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
     "kulczyba": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "kurzyslad": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>-sp<grey>",
         "dont_bind": true
       }
@@ -1532,7 +1532,7 @@
     ],
     "lubczyk": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>+gld<grey>",
         "dont_bind": true
       }
@@ -1567,7 +1567,7 @@
     ],
     "machorka": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>--<grey>"
       }
     ],
@@ -1595,24 +1595,24 @@
     ],
     "makownik": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid><LimeGreen>+kon<grey>"
       }
     ],
     "malina": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       }
     ],
     "mandragora": [
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid><medium_turquoise>+man<grey>"
       },
       {
-        "action": "<orchid>rozgryz<grey>",
+        "action": "rozgryz",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
@@ -1625,7 +1625,7 @@
     ],
     "maslak": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
@@ -1666,21 +1666,21 @@
     ],
     "muchomor_cesarski": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "muchomor_czerwony": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "muchomor_sromotnikowy": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
@@ -1699,11 +1699,11 @@
     ],
     "nawloc": [
       {
-        "action": "<orchid>rozgryz<grey>",
+        "action": "rozgryz",
         "effect": "<orchid>odtruwa<grey>"
       },
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
@@ -1740,14 +1740,14 @@
     ],
     "ostrozen": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "perelkowiec": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>--<grey>"
       }
     ],
@@ -1763,20 +1763,20 @@
     ],
     "pierscieniak": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>--<grey>"
       }
     ],
     "pierscieniak_gryn": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>niejadalny<grey>",
         "dont_bind": true
       }
     ],
     "plucnica": [
       {
-        "action": "<orchid>sproszkuj<grey>",
+        "action": "sproszkuj",
         "effect": "<orchid>-trj<grey>"
       }
     ],
@@ -1806,7 +1806,7 @@
     ],
     "pokrzywa": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>+prg +gld<grey>"
       }
     ],
@@ -1819,21 +1819,21 @@
     ],
     "poziewnik": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "poziomka": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       }
     ],
     "przelot": [
       {
-        "action": "<orchid>sproszkuj<grey>",
+        "action": "sproszkuj",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
@@ -1852,7 +1852,7 @@
     ],
     "ranog": [
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>-trj <LimeGreen>+kon<grey>"
       }
     ],
@@ -1879,31 +1879,31 @@
     ],
     "rdest_wezownik": [
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
     "rojnik": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>+pij<grey>"
       }
     ],
     "rosiczka": [
       {
-        "action": "<orchid>polknij<grey>",
+        "action": "polknij",
         "effect": "<orchid><medium_turquoise>+int<grey>"
       }
     ],
     "roza_ogrodowa": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>??<grey>"
       }
     ],
     "rumianek": [
       {
-        "action": "<orchid>wdychnij<grey>",
+        "action": "wdychnij",
         "effect": "<orchid>odtruwa<grey>"
       }
     ],
@@ -1921,48 +1921,48 @@
     ],
     "skedar": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid><LimeGreen>telepatia (pomysl do ...)<grey>"
       }
     ],
     "skrzyp": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalny<grey>",
         "dont_bind": true
       }
     ],
     "sliwa": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>jadalna<grey>",
         "dont_bind": true
       }
     ],
     "starzec": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "stroczek": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "stroiczka": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
     ],
     "stulicha": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
@@ -1988,7 +1988,7 @@
     ],
     "szalwia": [
       {
-        "action": "<orchid>przyloz<grey>",
+        "action": "przyloz",
         "effect": "<orchid><LimeGreen>+kon<grey> +zmc"
       }
     ],
@@ -2017,7 +2017,7 @@
     ],
     "tatarak": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>--<grey>"
       }
     ],
@@ -2034,13 +2034,13 @@
     ],
     "trawa": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>???<grey>"
       }
     ],
     "tyton": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>???<grey>"
       }
     ],
@@ -2053,13 +2053,13 @@
     ],
     "ususzona_konopia": [
       {
-        "action": "<orchid>spal<grey>",
+        "action": "spal",
         "effect": "<orchid>odp na magie<grey>"
       }
     ],
     "ususzona_macznica": [
       {
-        "action": "<orchid>???<grey>",
+        "action": "???",
         "effect": "<orchid>???<grey>"
       }
     ],
@@ -2094,7 +2094,7 @@
     ],
     "ususzona_stroiczka": [
       {
-        "action": "<orchid>zjedz<grey>",
+        "action": "zjedz",
         "effect": "<orchid>trj<grey>",
         "dont_bind": true
       }
@@ -2118,7 +2118,7 @@
     ],
     "ususzony_ranog": [
       {
-        "action": "<orchid>przezuj<grey>",
+        "action": "przezuj",
         "effect": "<orchid>-trj <LimeGreen>+kon<grey>"
       }
     ],
