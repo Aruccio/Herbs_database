@@ -1156,7 +1156,7 @@
     ],
     "bez": [
       {
-        "action": "[...NSPR...] zjedz",
+        "action": "zjedz",
         "effect": "jadalny",
         "dont_bind": true
       },
@@ -1181,6 +1181,10 @@
         "action": "zjedz",
         "effect": "tr[-kon, -sp]",
         "dont_bind": true
+      },
+      {
+        "action": "polknij",
+        "effect": "--?"
       }
     ],
     "boldoa": [
@@ -1277,7 +1281,7 @@
     "centuria": [
       {
         "action": "zjedz",
-        "effect": "-trj"
+        "effect": "odtr?"
       }
     ],
     "chaber": [
@@ -2040,6 +2044,11 @@
         "action": "zjedz",
         "effect": "odtr? jadalny?",
         "dont_bind": true
+      },
+      {
+        "action": "rozgryz",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "szczwol": [
@@ -2145,9 +2154,13 @@
     ],
     "ususzona_stroiczka": [
       {
-        "action": "[...NSPR...] zjedz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
+      },
+      {
+        "action": "sproszkuj",
+        "efect": "tr[-kon -glod -zmc]"
       }
     ],
     "ususzony_jaskier": [
