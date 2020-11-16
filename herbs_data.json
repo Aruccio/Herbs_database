@@ -2160,12 +2160,6 @@
         "effect": "???"
       }
     ],
-    "ususzony_przelot": [
-      {
-        "action": "sproszkuj",
-        "effect": "--"
-      }
-    ],
     "ususzony_ranog": [
       {
         "action": "[...NSPR...] przezuj",
