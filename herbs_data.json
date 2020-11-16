@@ -1040,6 +1040,14 @@
       "mnoga_dopelniacz": "owlosionych aromatycznych ususzonych lisci",
       "mnoga_biernik": "owlosione aromatyczne ususzone liscie"
     },
+    "ususzona_rosiczka": {
+      "mianownik": "bialokwitnaca drobna ususzona roslinka",
+      "dopelniacz": "bialokwitnacej drobnej ususzonej roslinki",
+      "biernik": "bialokwitnaca drobna ususzona roslinke",
+      "mnoga_mianownik": "bialokwitnace drobne ususzone roslinki",
+      "mnoga_dopelniacz": "bialokwitnacych drobnych ususzonych roslinek",
+      "mnoga_biernik": "bialokwitnace drobne ususzone roslinki"
+    },
     "ususzona_stroiczka": {
       "mianownik": "rozgaleziona owlosiona ususzona lodyga",
       "dopelniacz": "rozgalezionej owlosionej ususzonej lodygi",
@@ -1094,8 +1102,12 @@
     "aralia": [
       {
         "action": "przezuj",
-        "effect": "+odp <olive_drab>-zmc <grey> trj",
+        "effect": "+odp <olive_drab>-zmc <grey> +kac",
         "dont_bind": true
+      },
+      {
+        "action": "zjedz",
+        "effect": "+zrc"
       }
     ],
     "arnika": [
@@ -1210,8 +1222,16 @@
     ],
     "bylica_piolun": [
       {
-        "action": "[...NSPR...]   rozgryz",
-        "effect": "+sil +gld"
+        "action": "rozgryz",
+        "effect": "tr[+upicie]"
+      },
+      {
+        "action": "wetrzyj",
+        "effect": "odtr?"
+      },
+      {
+        "action": "zjedz",
+        "effect": "-glod"
       }
     ],
     "bylica_pospolita": [
@@ -1847,8 +1867,8 @@
     ],
     "ranog": [
       {
-        "action": "[...NSPR...]   przezuj",
-        "effect": "-trj <LimeGreen>+kon<grey>"
+        "action": " przezuj",
+        "effect": "???-trj <LimeGreen>+kon<grey>"
       }
     ],
     "rauwolfia": [
@@ -2095,6 +2115,12 @@
         "effect": "[...NSPR...]   ?"
       }
     ],
+    "ususzona_rosiczka": [
+      {
+        "action": "polnij",
+        "effect": "odtr"
+      }
+    ],
     "ususzona_stroiczka": [
       {
         "action": "[...NSPR...]   zjedz",
@@ -2110,8 +2136,8 @@
     ],
     "ususzony_ranog": [
       {
-        "action": "[...NSPR...]   przezuj",
-        "effect": "-trj <LimeGreen>+kon<grey>"
+        "action": "przezuj",
+        "effect": "??? -trj <LimeGreen>+kon<grey>"
       }
     ],
     "ususzony_szafran": [
