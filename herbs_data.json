@@ -2175,7 +2175,7 @@
       "ususzony_ranog": [
         {
           "action": "[...NSPR...] przezuj",
-          "effect": "[...NSPR...]  -trj <LimeGreen>+kon<grey>"
+          "effect": "[...NSPR...] -trj <LimeGreen>+kon<grey>"
         }
       ],
     "ususzony_starzec": [
