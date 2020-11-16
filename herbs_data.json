@@ -2162,16 +2162,10 @@
     ],
     "ususzony_przelot": [
       {
-        "action": "sproszkuj",
-        "effect": "--"
+        "action": "[...NSPR...] przezuj",
+        "effect": "[...NSPR...] -trj <LimeGreen>+kon<grey>"
       }
     ],
-      "ususzony_ranog": [
-        {
-          "action": "[...NSPR...] przezuj",
-          "effect": "[...NSPR...] -trj <LimeGreen>+kon<grey>"
-        }
-      ],
     "ususzony_starzec": [
       {
         "action": "zjedz",
