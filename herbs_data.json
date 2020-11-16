@@ -1072,6 +1072,14 @@
       "mnoga_dopelniacz": "brudnozoltych fioletowo-zylkowanych ususzonych kwiatow",
       "mnoga_biernik": "brudnozolte fioletowo-zylkowane ususzone kwiaty"
     },
+    "ususzony_przelot": {
+      "mianownik": "kremowy owlosiony ususzony kwiat",
+      "dopelniacz": "kremowego owlosionego ususzonego kwiatu",
+      "biernik": "kremowy owlosiony ususzony kwiat",
+      "mnoga_mianownik": "kremowe owlosione ususzone kwiaty",
+      "mnoga_dopelniacz": "kremowych owlosionych ususzonych kwiatow",
+      "mnoga_biernik": "kremowe owlosione ususzone kwiaty"
+    },
     "ususzony_ranog": {
       "mianownik": "zoltoszary niepozorny ususzony korzen",
       "dopelniacz": "zoltoszarego niepozornego ususzonego korzenia",
@@ -2149,6 +2157,12 @@
       },
       {
         "action": "rozkrusz",
+        "effect": "???"
+      }
+    ],
+    "ususzony_przelot": [
+      {
+        "action": "sproszkuj",
         "effect": "???"
       }
     ],
