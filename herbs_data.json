@@ -2161,6 +2161,10 @@
       }
     ],
     "ususzony_przelot": [
+        "effect": "--"
+      }
+    ],
+    "ususzony_ranog": [
       {
         "action": "[...NSPR...] przezuj",
         "effect": "[...NSPR...] -trj <LimeGreen>+kon<grey>"
@@ -2176,23 +2180,23 @@
         "action": "sproszkuj",
         "effect": "odtr?"
       }
-      ],
-      "ususzony_szafran": [
-        {
-          "action": "zjedz",
-          "effect": "<LimeGreen>+kon<grey>",
-          "dont_bind": true
-        }
-      ],
-      "wrotycz": [
-        {
-          "action": "powachaj",
-          "effect": "?odtr"
-        },
-        {
-          "action": "przyloz",
-          "effect": "odtr"
-        }
-      ]
-    }
+    ],
+    "ususzony_szafran": [
+      {
+        "action": "zjedz",
+        "effect": "<LimeGreen>+kon<grey>",
+        "dont_bind": true
+      }
+    ],
+    "wrotycz": [
+      {
+        "action": "powachaj",
+        "effect": "?odtr"
+      },
+      {
+        "action": "przyloz",
+        "effect": "odtr"
+      }
+    ]
+  }
   }
