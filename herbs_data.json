@@ -1008,6 +1008,14 @@
       "mnoga_dopelniacz": "niepozornych sinozielonych roslinek",
       "mnoga_biernik": "niepozorne sinozielone roslinki"
     },
+    "ususzona_boldoa": {
+      "mianownik": "szarozielony szorstki ususzony lisc",
+      "dopelniacz": "szarozielonego szorstkiego ususzonego liscia",
+      "biernik": "szarozielony szorstki ususzony lisc",
+      "mnoga_mianownik": "szarozielone szorstkie ususzone liscie",
+      "mnoga_dopelniacz": "szarozielonych szorstkich ususzonych lisci",
+      "mnoga_biernik": "szarozielone szorstkie ususzone liscie"
+    },
     "ususzona_konopia": {
       "mianownik": "dluga ususzona lodyga",
       "dopelniacz": "dlugiej ususzonej lodygi",
@@ -1227,6 +1235,10 @@
         "action": "zjedz",
         "effect": "tr[omamy]",
         "dont_bind": true
+      },
+      {
+        "action": "przezuj",
+        "effect": "+mana"
       }
     ],
     "bylica_cytwarowa": [
@@ -1307,8 +1319,8 @@
     ],
     "ciemiezyca": [
       {
-        "action": "[...NSPR...] zjedz",
-        "effect": "-sp",
+        "action": "zjedz",
+        "effect": "tr[-zrc +zmc]",
         "dont_bind": true
       }
     ],
@@ -1533,8 +1545,8 @@
     ],
     "kulczyba": [
       {
-        "action": "[...NSPR...] zjedz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "tr[-zrc -glod]",
         "dont_bind": true
       },
       {
@@ -1571,7 +1583,7 @@
     ],
     "lubczyk": [
       {
-        "action": "[...NSPR...]   zjedz",
+        "action": "zjedz",
         "effect": "+gld",
         "dont_bind": true
       }
@@ -1766,7 +1778,7 @@
     "oset": [
       {
         "action": "przezuj",
-        "effect": "-kon",
+        "effect": "tr[?]",
         "dont_bind": true
       }
     ],
@@ -1802,8 +1814,8 @@
     ],
     "pierscieniak": [
       {
-        "action": "[...NSPR...] zjedz",
-        "effect": "--"
+        "action": "zjedz",
+        "effect": "tr[]"
       }
     ],
     "pierscieniak_gryn": [
@@ -1872,8 +1884,8 @@
     ],
     "przelot": [
       {
-        "action": "[...NSPR...] sproszkuj",
-        "effect": "odtruwa"
+        "action": "sproszkuj",
+        "effect": "odtr"
       }
     ],
     "przesl": [
@@ -2103,6 +2115,13 @@
       {
         "action": "wetrzyj",
         "effect": "+odw"
+      }
+    ],
+    "ususzona_boldoa": [
+      {
+        "action": "rozkrusz",
+        "effect": "odtr"
+          
       }
     ],
     "ususzona_konopia": [
