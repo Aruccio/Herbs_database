@@ -1126,12 +1126,11 @@
     "aralia": [
       {
         "action": "przezuj",
-        "effect": "+odp <olive_drab>-zmc <grey> +kac",
-        "dont_bind": true
+        "effect": "+zrc"
       },
       {
         "action": "zjedz",
-        "effect": "+zrc"
+        "effect": "+odp <olive_drab>-zmc <grey> +kac"
       }
     ],
     "arnika": [
@@ -1148,8 +1147,12 @@
     ],
     "bagno": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "-wyt"
+        "action": "zjedz",
+        "effect": "odtr?"
+      },
+      {
+        "action": "przyloz",
+        "effect": "???"
       }
     ],
     "barwinka": [
@@ -1197,8 +1200,8 @@
     ],
     "boldoa": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "jadalna",
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
       }
     ],
@@ -1406,7 +1409,7 @@
     ],
     "jagoda": [
       {
-        "action": "[...NSPR...]   zjedz",
+        "action": "[...NSPR...]  zjedz",
         "effect": "jadalna",
         "dont_bind": true
       }
@@ -1449,8 +1452,8 @@
     ],
     "kakol": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "+gld trujacy",
+        "action": "zjedz",
+        "effect": "tr[-glod]",
         "dont_bind": true
       }
     ],
@@ -1534,7 +1537,7 @@
     ],
     "krzyzownica": [
       {
-        "action": "[...NSPR...] zjedz",
+        "action": "zjedz",
         "effect": "jadalna",
         "dont_bind": true
       },
@@ -1551,7 +1554,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "+sila"
+        "effect": "+sil"
       }
     ],
     "kurzyslad": [
@@ -2010,8 +2013,8 @@
     ],
     "stroiczka": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
       }
     ],
@@ -2089,7 +2092,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "odtruwa, -kac?"
+        "effect": "-kac odtr?"
       }
     ],
     "trawa": [
@@ -2179,7 +2182,7 @@
       },
       {
         "action": "sproszkuj",
-        "efect": "tr[-kon -glod -zmc]"
+        "efect": "tr[-kon -glod +zmc]"
       }
     ],
     "ususzony_jaskier": [
