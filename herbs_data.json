@@ -1355,8 +1355,8 @@
     ],
     "drabik": [
       {
-        "action": "[...NSPR...]   zjedz",
-        "effect": "jadalny",
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
       }
     ],
@@ -1662,12 +1662,12 @@
     ],
     "mandragora": [
       {
-        "action": "[...NSPR...]   przezuj",
-        "effect": "<medium_turquoise>+man<grey>"
+        "action": "przezuj",
+        "effect": "<medium_turquoise>+int -man<grey>"
       },
       {
-        "action": "[...NSPR...]   rozgryz",
-        "effect": "odtruwa"
+        "action": "rozgryz",
+        "effect": "<medium_turquoise>+man<grey>"
       }
     ],
     "marzanna": [
