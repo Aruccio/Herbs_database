@@ -2229,10 +2229,8 @@
     ],
     "ususzony_lulek": [
       {
-        {
           "action": "rozgryz",
           "effect": "<medium_turquoise>+int<grey>"
-        }
       }
     ],
     "ususzony_przelot": [
