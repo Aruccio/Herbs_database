@@ -1476,6 +1476,10 @@
         "action": "zjedz",
         "effect": "--",
         "dont_bind": true
+      },
+      {
+        "action": "przyloz",
+        "effect": "???"
       }
     ],
     "kocimietka": [
