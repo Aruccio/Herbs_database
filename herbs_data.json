@@ -1479,7 +1479,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "???"
+        "effect": "<olive_drab>-zmc <grey>"
       }
     ],
     "kocimietka": [
@@ -1959,9 +1959,13 @@
     ],
     "rojnik": [
       {
-        "action": "[...NSPR...] zjedz",
+        "action": "zjedz",
         "effect": "+pij",
         "dont_bind": true
+      },
+      {
+        "action": "przyloz",
+        "effect": "???"
       }
     ],
     "rosiczka": [
@@ -2221,6 +2225,11 @@
       {
         "action": "rozkrusz",
         "effect": "???"
+      }
+    ],
+    "ususzony_lulek": [
+      {
+
       }
     ],
     "ususzony_przelot": [
