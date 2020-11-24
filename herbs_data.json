@@ -1970,8 +1970,9 @@
     ],
     "rosiczka": [
       {
-        "action": "[...NSPR...] polknij",
-        "effect": "<medium_turquoise>+int<grey>"
+        "action": "polknij",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "roza_ogrodowa": [
