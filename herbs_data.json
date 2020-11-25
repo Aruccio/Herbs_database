@@ -1241,7 +1241,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "+mana -kac"
+        "effect": "<medium_turquoise>+mana -kac<grey>"
       }
     ],
     "bylica_cytwarowa": [
@@ -1410,7 +1410,7 @@
     "hyzop": [
       {
         "action": "zjedz",
-        "effect": "+mana -glod"
+        "effect": "<medium_turquoise>+mana<grey> -glod"
       }
     ],
     "jagoda": [
@@ -2199,7 +2199,7 @@
     "ususzona_rosiczka": [
       {
         "action": "rozkrusz",
-        "effect": "+mana"
+        "effect": "<medium_turquoise>+mana<grey>"
       },
       {
         "action": "polnij",
