@@ -1064,6 +1064,14 @@
       "mnoga_dopelniacz": "rozgalezionych owlosionych ususzonych lodyg",
       "mnoga_biernik": "rozgalezione owlosione ususzone lodygi"
     },
+    "ususzony_czosnek": {
+      "mianownik": "biala pachnaca ususzona cebulka",
+      "dopelniacz": "bialego pachnacej ususzonej cebulki",
+      "biernik": "biala pachnaca ususzona cebulke",
+      "mnoga_mianownik": "biale pachnace ususzone cebulki",
+      "mnoga_dopelniacz": "bialych pachnacych ususzonych cebulek",
+      "mnoga_biernik": "biale pachnace ususzone cebulki"
+    },
     "ususzony_jaskier": {
       "mianownik": "rozgaleziona wzniesiona ususzona lodyga",
       "dopelniacz": "rozgalezionej wzniesionej ususzonej lodygi",
@@ -1354,6 +1362,10 @@
         "action": "zjedz",
         "effect": "+prg",
         "dont_bind": true
+      },
+      {
+        "action": "przezuj",
+        "effect": "odtr?"
       }
     ],
     "drabik": [
@@ -1490,8 +1502,8 @@
     ],
     "kola": [
       {
-        "action": "[...NSPR...]rozgryz",
-        "effect": "+wyt <olive_drab>-zmc <grey> -gld"
+        "action": "rozgryz",
+        "effect": "+glod +panika"
       },
       {
         "action": "[...NSPR...]zjedz",
@@ -1693,7 +1705,7 @@
     ],
     "maslak": [
       {
-        "action": "[...NSPR...]zjedz",
+        "action": "zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1841,8 +1853,8 @@
     ],
     "pierscieniak_gryn": [
       {
-        "action": "[...NSPR...]zjedz",
-        "effect": "niejadalny",
+        "action": "zjedz",
+        "effect": "?tr",
         "dont_bind": true
       }
     ],
@@ -2218,6 +2230,12 @@
         "dont_bind": true
       }
     ],
+    "ususzony_czosnek": [
+      {
+        "action": "?",
+        "effect": "?"
+      }
+    ],
     "ususzony_jaskier": [
       {
         "action": "zjedz",
@@ -2242,7 +2260,7 @@
     ],
     "ususzony_ranog": [
       {
-        "action": "[...NSPR...]przezuj",
+        "action": "przezuj",
         "effect": "[...NSPR...]-trj <LimeGreen>+kon<grey>"
       }
     ],
