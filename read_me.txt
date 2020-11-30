@@ -10,7 +10,7 @@ registerAnonymousEventHandler("scriptsLoaded", function() herbs.data_url = url e
 -> restart mudleta
 
 
-[...NSPR...] oznacza, ze nie sprawdzilam ziola i jest to, co bylo w starej bazie.
+[N] oznacza, ze nie sprawdzilam ziola i jest to, co bylo w starej bazie.
 Pytajnik to najpewniej, że wiem, że można to zrobić, ale nie wiem czy to daje taki efekt.
 
 
