@@ -2119,7 +2119,7 @@
     ],
     "tatarak": [
       {
-        "action": "[...NSPR...]",
+        "action": "[N]",
         "effect": "--",
         "dont_bind": true
       }
