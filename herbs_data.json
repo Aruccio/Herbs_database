@@ -2059,7 +2059,7 @@
     "stulicha": [
       {
         "action": "zjedz",
-        "effect": "tr[?]",
+        "effect": "tr[-kon +kac]",
         "dont_bind": true
       }
     ],
