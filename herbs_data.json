@@ -1170,7 +1170,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "bez": [
@@ -2012,7 +2012,7 @@
     "siezygron": [
       {
         "action": "rozgryz",
-        "effect": "odtrutka"
+        "effect": "odtr"
       }
     ],
     "skedar": [
@@ -2261,7 +2261,7 @@
     "ususzony_ranog": [
       {
         "action": "przezuj",
-        "effect": "[N]-trj <LimeGreen>+kon<grey>"
+        "effect": "odtr <LimeGreen>+kon<grey>"
       }
     ],
     "ususzony_starzec": [
