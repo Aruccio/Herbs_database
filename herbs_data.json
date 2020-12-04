@@ -1612,7 +1612,7 @@
     "lubczyk": [
       {
         "action": "zjedz",
-        "effect": "+gld",
+        "effect": "<tomato>-glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1746,8 +1746,8 @@
     ],
     "muchomor_cesarski": [
       {
-        "action": "[N]zjedz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
       }
     ],
