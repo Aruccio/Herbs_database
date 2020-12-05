@@ -32,7 +32,7 @@
       "mnoga_dopelniacz": "brudnobrazowawych cuchnacych galazek",
       "mnoga_biernik": "brudnobrazowe cuchnace galazki"
     },
-    "barwinka": {
+    "barwinek": {
       "mianownik": "fioletowy lejkowaty kwiat",
       "dopelniacz": "fioletowego lejkowatego kwiatu",
       "biernik": "fioletowy lejkowaty kwiat",
@@ -899,7 +899,7 @@
     "stroczek": {
       "mianownik": "bialy zmutowany grzybek",
       "dopelniacz": "bialego zmutowanego grzybka",
-      "biernik": "bialy zmutowany grzybek",
+      "biernik": "bialego zmutowanego grzybka",
       "mnoga_mianownik": "biale zmutowane grzybki",
       "mnoga_dopelniacz": "bialych zmutowanych grzybkow",
       "mnoga_biernik": "biale zmutowane grzybki"
@@ -1163,7 +1163,7 @@
         "effect": "???"
       }
     ],
-    "barwinka": [
+    "barwinek": [
       {
         "action": "przyloz",
         "effect": "<LimeGreen>+kon<grey>"
@@ -1180,8 +1180,8 @@
         "dont_bind": true
       },
       {
-        "action": "[N]przezuj",
-        "effect": "odtr"
+        "action": "przezuj",
+        "effect": "odtr?"
       }
     ],
     "bielun": [
@@ -1215,7 +1215,7 @@
     ],
     "borowik_krolewski": [
       {
-        "action": "[N]zjedz",
+        "action": "zjedz",
         "effect": "jadalny",
         "dont_bind": true
       }
@@ -1854,7 +1854,7 @@
     "pierscieniak_gryn": [
       {
         "action": "zjedz",
-        "effect": "trj?",
+        "effect": "tr[-kon]",
         "dont_bind": true
       }
     ],
@@ -2044,8 +2044,8 @@
     ],
     "stroczek": [
       {
-        "action": "[N]zjedz",
-        "effect": "trj",
+        "action": "zjedz",
+        "effect": "tr[?]",
         "dont_bind": true
       }
     ],
@@ -2175,8 +2175,8 @@
     ],
     "ususzona_macznica": [
       {
-        "action": "[N]",
-        "effect": "--"
+        "action": "rozgryz",
+        "effect": "+panika odtr?"
       }
     ],
     "ususzona_mandragora": [
