@@ -1259,7 +1259,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "+glod",
+        "effect": "<tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1275,7 +1275,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "-glod",
+        "effect": "<tomato>+glod<grey",
         "dont_bind": true
       }
     ],
@@ -1286,14 +1286,14 @@
       },
       {
         "action": "zjedz",
-        "effect": "<tomato>-glod<grey>",
+        "effect": "<tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
     "casur": [
       {
         "action": "zjedz",
-        "effect": "+sil"
+        "effect": "+sila"
       }
     ],
     "cebula": [
@@ -1320,7 +1320,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "+prg",
+        "effect": "<tomato>+prg<grey",
         "dont_bind": true
       }
     ],
@@ -1360,7 +1360,7 @@
     "deren": [
       {
         "action": "zjedz",
-        "effect": "+prg",
+        "effect": "<tomato>+prg<grey",
         "dont_bind": true
       },
       {
@@ -1401,7 +1401,7 @@
     "grabiorog": [
       {
         "action": "[N]zjedz",
-        "effect": "-man",
+        "effect": "-mana",
         "dont_bind": true
       }
     ],
@@ -1422,7 +1422,7 @@
     "hyzop": [
       {
         "action": "zjedz",
-        "effect": "<medium_turquoise>+mana<grey> -glod"
+        "effect": "<medium_turquoise>+mana<grey> <tomato>+glod<grey"
       }
     ],
     "jagoda": [
@@ -1435,7 +1435,7 @@
     "janowiec": [
       {
         "action": "zjedz",
-        "effect": "+prg",
+        "effect": "<tomato>+prg<grey",
         "dont_bind": true
       }
     ],
@@ -1471,7 +1471,7 @@
     "kakol": [
       {
         "action": "zjedz",
-        "effect": "tr[-glod]",
+        "effect": "tr[+glod]",
         "dont_bind": true
       }
     ],
@@ -1503,11 +1503,11 @@
     "kola": [
       {
         "action": "rozgryz",
-        "effect": "+glod +panika"
+        "effect": "<tomato>+glod<grey> +panika"
       },
       {
         "action": "[N]zjedz",
-        "effect": "-gld",
+        "effect": "<tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1531,7 +1531,7 @@
     "konwalia": [
       {
         "action": "powachaj",
-        "effect": "-pan -prg"
+        "effect": "-pan <tomato>+prg<grey>"
       },
       {
         "action": "zjedz",
@@ -1555,7 +1555,7 @@
     "kruszyna": [
       {
         "action": "zjedz",
-        "effect": "tr[-glod]",
+        "effect": "tr[+glod]",
         "dont_bind": true
       }
     ],
@@ -1573,11 +1573,11 @@
     "kulczyba": [
       {
         "action": "przezuj",
-        "effect": "+sil"
+        "effect": "+sila"
       },
       {
         "action": "zjedz",
-        "effect": "tr[-zrc -glod]",
+        "effect": "tr[-zrc +glod]",
         "dont_bind": true
       }
     ],
@@ -1612,7 +1612,7 @@
     "lubczyk": [
       {
         "action": "zjedz",
-        "effect": "<tomato>-glod<grey>",
+        "effect": "<tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1623,7 +1623,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "+prg",
+        "effect": "<tomato>+prg<grey>",
         "dont_bind": true
       }
     ],
@@ -1640,7 +1640,7 @@
     "lulek": [
       {
         "action": "zjedz",
-        "effect": "tr[+upicie,-glod,-kon]",
+        "effect": "tr[+upicie,+glod,-kon]",
         "dont_bind": true
       }
     ],
@@ -1724,7 +1724,7 @@
     "mieta": [
       {
         "action": "przezuj",
-        "effect": "<tomato>-glod<grey>",
+        "effect": "<tomato>+glod<grey>",
         "don_bind": true
       },
       {
@@ -1798,7 +1798,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "-kon +gld",
+        "effect": "-kon <tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1818,7 +1818,7 @@
     "ostrozeczka": [
       {
         "action": "zjedz",
-        "effect": "-glod",
+        "effect": "<tomato>+glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1892,13 +1892,13 @@
     "pokrzywa": [
       {
         "action": "zjedz",
-        "effect": "-upicie +prg +gld"
+        "effect": "-upicie <tomato>+prg +glod<grey>"
       }
     ],
     "potoslin": [
       {
         "action": "zjedz",
-        "effect": "tr[+zmc, -glod]",
+        "effect": "tr[+zmc, +glod]",
         "dont_bind": true
       }
     ],
@@ -1938,7 +1938,7 @@
     "ranog": [
       {
         "action": "[N]przezuj",
-        "effect": "-trj <LimeGreen>+kon<grey>???"
+        "effect": "-trj <LimeGreen>+kon<grey>?"
       }
     ],
     "rauwolfia": [
@@ -1948,7 +1948,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr[+zmc, -glod]",
+        "effect": "tr[+zmc, +glod]",
         "dont_bind": true
       }
     ],
@@ -2131,7 +2131,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr[+pan, -glod, -kon]",
+        "effect": "tr[+pan, +glod, -kon]",
         "dont_bind": true
       }
     ],
@@ -2163,8 +2163,8 @@
     "ususzona_boldoa": [
       {
         "action": "rozkrusz",
-        "effect": "odtr -glod"
-          
+        "effect": "odtr <tomato>+glod<grey>"
+
       }
     ],
     "ususzona_konopia": [
@@ -2186,7 +2186,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "<medium_turquoise>+man"
+        "effect": "<medium_turquoise>+mana<grey>"
       },
       {
         "action": "zjedz",
@@ -2205,7 +2205,7 @@
       },
       {
         "action": "powachaj",
-        "effect": "[N]"
+        "effect": "--? odtr?"
       }
     ],
     "ususzona_rosiczka": [
@@ -2226,14 +2226,18 @@
       },
       {
         "action": "sproszkuj",
-        "efect": "tr[-kon -glod +zmc]",
+        "efect": "tr[-kon +glod +zmc]",
         "dont_bind": true
       }
     ],
     "ususzony_czosnek": [
       {
-        "action": "?",
-        "effect": "?"
+        "action": "wetrzyj",
+        "effect": "+odp"
+      },
+      {
+        "action": "zjedz",
+        "effect": "???"
       }
     ],
     "ususzony_jaskier": [
