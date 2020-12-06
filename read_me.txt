@@ -3,9 +3,14 @@ W mudlety tylko.
 
 -> poza arkadiowym folderem zrobic skrypt o tresci:
 
+
 local url = "https://raw.githubusercontent.com/Aruccio/herbs_database/main/herbs_data.json"
-herbs.data_url = url
+if herbs then
+  herbs.data_url = url
+end
 registerAnonymousEventHandler("scriptsLoaded", function() herbs.data_url = url end, true)
+
+
 
 -> restart mudleta
 
