@@ -1375,13 +1375,13 @@
     ],
     "deren": [
       {
+        "action": "przezuj",
+        "effect": "odtr?"
+      },
+      {
         "action": "zjedz",
         "effect": "<tomato>+prg<grey>",
         "dont_bind": true
-      },
-      {
-        "action": "przezuj",
-        "effect": "odtr?"
       }
     ],
     "drabik": [
