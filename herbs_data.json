@@ -665,12 +665,12 @@
       "mnoga_biernik": "galeziste sinozielone lodygi"
     },
     "perelkowiec": {
-      "mianownik": "zdlugi zielonobrunatny strak",
-      "dopelniacz": "zdlugiego zielonobrunatnego straka",
-      "biernik": "zdlugi zielonobrunatny strak",
-      "mnoga_mianownik": "zdlugie zielonobrunatne straki",
-      "mnoga_dopelniacz": "zdlugich zielonobrunatnych strakow",
-      "mnoga_biernik": "zdlugie zielonobrunatne straki"
+      "mianownik": "dlugi zielonobrunatny strak",
+      "dopelniacz": "dlugiego zielonobrunatnego straku",
+      "biernik": "dlugi zielonobrunatny strak",
+      "mnoga_mianownik": "dlugie zielonobrunatne straki",
+      "mnoga_dopelniacz": "dlugich zielonobrunatnych strakow",
+      "mnoga_biernik": "dlugie zielonobrunatne straki"
     },
     "pieciornik": {
       "mianownik": "ciemne poskrecane klacze",
@@ -1087,6 +1087,14 @@
       "mnoga_mianownik": "brudnozolte fioletowo-zylkowane ususzone kwiaty",
       "mnoga_dopelniacz": "brudnozoltych fioletowo-zylkowanych ususzonych kwiatow",
       "mnoga_biernik": "brudnozolte fioletowo-zylkowane ususzone kwiaty"
+    },
+    "ususzony_perelkowiec": {
+      "mianownik": "dlugi zielonobrunatny ususzony strak",
+      "dopelniacz": "dlugiego zielonobrunatnego ususzonego straku",
+      "biernik": "dlugi zielonobrunatny ususzony strak",
+      "mnoga_mianownik": "dlugie zielonobrunatne ususzone straki",
+      "mnoga_dopelniacz": "dlugich zielonobrunatnych ususzonych strakow",
+      "mnoga_biernik": "dlugie zielonobrunatne ususzone straki"
     },
     "ususzony_przelot": {
       "mianownik": "kremowy owlosiony ususzony kwiat",
@@ -1834,7 +1842,7 @@
     ],
     "perelkowiec": [
       {
-        "action": "[N]",
+        "action": "zjedz",
         "effect": "???"
       }
     ],
@@ -2256,8 +2264,18 @@
     ],
     "ususzony_lulek": [
       {
-          "action": "rozgryz",
-          "effect": "<medium_turquoise>+int<grey>"
+        "action": "rozgryz",
+        "effect": "<medium_turquoise>+int<grey>"
+      }
+    ],
+    "ususzony_perelkowiec": [
+      {
+        "action": "zjedz",
+        "effect": "tr[-kon]"
+      },
+      {
+        "action": "rozetrzyj",
+        "effect": "???"
       }
     ],
     "ususzony_przelot": [
