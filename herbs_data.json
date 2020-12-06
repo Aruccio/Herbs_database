@@ -1153,6 +1153,10 @@
       {
         "action": "zjedz",
         "effect": "<olive_drab>-zmc<grey>"
+      },
+      {
+        "action": "przyloz",
+        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "babka": [
@@ -1211,7 +1215,7 @@
       },
       {
         "action": "polknij",
-        "effect": "--?"
+        "effect": "<olive_drab>-zmc <grey>"
       }
     ],
     "boldoa": [
@@ -1746,7 +1750,7 @@
       },
       {
         "action": "powachaj",
-        "effect": "--",
+        "effect": "<olive_drab>-zmc<grey>",
         "don_bind": true
       }
     ],
@@ -2188,7 +2192,7 @@
     "ususzona_macznica": [
       {
         "action": "rozgryz",
-        "effect": "+panika odtr?"
+        "effect": "+kon +panika odtr?"
       }
     ],
     "ususzona_mandragora": [
