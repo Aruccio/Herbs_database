@@ -1709,7 +1709,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "<medium_turquoise>+man<grey>"
+        "effect": "<medium_turquoise>+mana<grey>"
       }
     ],
     "marzanna": [
