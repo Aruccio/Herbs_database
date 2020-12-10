@@ -1817,7 +1817,7 @@
         "effect": "<olive_drab>-zmc<grey>"
       },
       {
-        "action": "rozgryz",
+        "action": "zjedz",
         "effect": "-kon <tomato>+glod<grey>",
         "dont_bind": true
       }
