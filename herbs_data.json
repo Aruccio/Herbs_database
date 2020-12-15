@@ -240,6 +240,14 @@
       "mnoga_dopelniacz": "czterokanciastych rozgalezionych lodyg",
       "mnoga_biernik": "czterokanciaste rozgalezione lodygi"
     },
+    "dziewanna": {
+      "mianownik": "zolty wielokwiatowy klos",
+      "dopelniacz": "zoltego wielokwiatowego klosa",
+      "biernik": "zolty wielokwiatowy klos",
+      "mnoga_mianownik": "zolte wielokwiatowe klosy",
+      "mnoga_dopelniacz": "zoltych wielokwiatowych klosow",
+      "mnoga_biernik": "zolte wielokwiatowe klosy"
+    },
     "glog": {
       "mianownik": "bialy maly kwiat",
       "dopelniacz": "bialego malego kwiatu",
@@ -735,6 +743,14 @@
       "mnoga_mianownik": "kanciaste parzace lodygi",
       "mnoga_dopelniacz": "kanciastych parzacych lodyg",
       "mnoga_biernik": "kanciaste parzace lodygi"
+    },
+    "poslonek": {
+      "mianownik": "cienka kosmata lodyzka",
+      "dopelniacz": "cienkiej kosmatej lodyzki",
+      "biernik": "cienka kosmata lodyzke",
+      "mnoga_mianownik": "cienke kosmate lodyzki",
+      "mnoga_dopelniacz": "cienkich kosmatych lodyzek",
+      "mnoga_biernik": "cienkie kosmate lodyzki"
     },
     "potoslin": {
       "mianownik": "pierzasty ogonkowy lisc",
@@ -1407,6 +1423,12 @@
         "effect": "<LimeGreen>+kon<grey> +zmc"
       }
     ],
+    "dziewanna": [
+      {
+        "action": "zjedz",
+        "effect": "odtr"
+      }
+    ],
     "glog": [
       {
         "action": "przezuj",
@@ -1538,7 +1560,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "--",
+        "effect": "<LimeGreen>+kon<grey>",
         "dont_bind": true
       }
     ],
@@ -1612,10 +1634,6 @@
       {
         "action": "przezuj",
         "effect": "<olive_drab>-zmc<grey>"
-      },
-      {
-        "action": "rozgryz?",
-        "effect": "+wyt?"
       }
     ],
     "lawenda": [
@@ -1913,6 +1931,12 @@
       {
         "action": "zjedz",
         "effect": "-upicie <tomato>+prg +glod<grey>"
+      }
+    ],
+    "poslonek": [
+      {
+        "action": "zjedz",
+        "effect": "?"
       }
     ],
     "potoslin": [
