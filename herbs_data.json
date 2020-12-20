@@ -1302,7 +1302,7 @@
     "bylica_piolun": [
       {
         "action": "wetrzyj",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "rozgryz",
@@ -1761,6 +1761,11 @@
     ],
     "mieta": [
       {
+        "action": "powachaj",
+        "effect": "<olive_drab>-zmc<grey>",
+        "don_bind": true
+      },
+      {
         "action": "przezuj",
         "effect": "<tomato>+glod<grey>",
         "don_bind": true
@@ -1768,11 +1773,6 @@
       {
         "action": "rozetrzyj",
         "effect": "--",
-        "don_bind": true
-      },
-      {
-        "action": "powachaj",
-        "effect": "<olive_drab>-zmc<grey>",
         "don_bind": true
       }
     ],
@@ -2327,7 +2327,7 @@
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "???"
+        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "ususzony_ranog": [
