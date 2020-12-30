@@ -1233,13 +1233,13 @@
     ],
     "bobotrutka": [
       {
+        "action": "polknij",
+        "effect": "<olive_drab>-zmc <grey>"
+      },
+      {
         "action": "zjedz",
         "effect": "tr[-kon, -sp]",
         "dont_bind": true
-      },
-      {
-        "action": "polknij",
-        "effect": "<olive_drab>-zmc <grey>"
       }
     ],
     "boldoa": [
@@ -1548,8 +1548,8 @@
         "effect": "<tomato>+glod<grey> +panika"
       },
       {
-        "action": "[N]zjedz",
-        "effect": "<tomato>+glod<grey>",
+        "action": "zjedz",
+        "effect": "<tomato>nic?<grey>",
         "dont_bind": true
       }
     ],
@@ -1969,7 +1969,7 @@
     "przesl": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc<grey> -pij"
+        "effect": "<olive_drab>-zmc<grey> -upicie"
       }
     ],
     "rabarbar": [
@@ -2301,7 +2301,7 @@
     "ususzony_jaskier": [
       {
         "action": "zjedz",
-        "effect": "???"
+        "effect": "tr[?]"
       },
       {
         "action": "rozkrusz",
@@ -2354,10 +2354,6 @@
       }
     ],
     "wrotycz": [
-      {
-        "action": "powachaj",
-        "effect": "?odtr"
-      },
       {
         "action": "przyloz",
         "effect": "odtr"
