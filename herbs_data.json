@@ -1192,11 +1192,11 @@
     "bagno": [
       {
         "action": "zjedz",
-        "effect": "odtr?"
+        "effect": "--?"
       },
       {
         "action": "przyloz",
-        "effect": "???"
+        "effect": "odtr"
       }
     ],
     "barwinek": [
@@ -1217,7 +1217,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "bielun": [
@@ -1291,7 +1291,7 @@
     "bylica_cytwarowa": [
       {
         "action": "wetrzyj",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "zjedz",
@@ -1342,7 +1342,7 @@
     "centuria": [
       {
         "action": "zjedz",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "chaber": [
@@ -1351,13 +1351,13 @@
         "effect": "odtr"
       },
       {
+        "action": "powachaj",
+        "effect": "odtr"
+      },
+      {
         "action": "zjedz",
         "effect": "<tomato>+prg<grey>",
         "dont_bind": true
-      },
-      {
-        "action": "powachaj",
-        "effect": "odtr"
       }
     ],
     "ciemiernik": [
@@ -1382,8 +1382,8 @@
     ],
     "czosnek": [
       {
-        "action": "[N]zjedz",
-        "effect": "jadalny",
+        "action": "zjedz",
+        "effect": "odtr",
         "dont_bind": true
       }
     ],
@@ -1396,7 +1396,7 @@
     "deren": [
       {
         "action": "przezuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "zjedz",
@@ -1449,8 +1449,8 @@
     ],
     "grzybien": [
       {
-        "action": "[N]zjedz",
-        "effect": "jadalny",
+        "action": "zjedz",
+        "effect": "-panika",
         "dont_bind": true
       }
     ],
@@ -1604,7 +1604,7 @@
     "krzyzownica": [
       {
         "action": "przezuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "zjedz",
@@ -1657,7 +1657,7 @@
     "lukrecja": [
       {
         "action": "przyloz",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "przezuj",
@@ -1818,7 +1818,7 @@
     "nawloc": [
       {
         "action": "rozgryz",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "zjedz",
@@ -1832,7 +1832,7 @@
     "nostrzyk": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc<grey>"
+        "effect": "<olive_drab>-zmc<grey> odtr"
       },
       {
         "action": "zjedz",
@@ -1869,7 +1869,7 @@
     "perelkowiec": [
       {
         "action": "zjedz",
-        "effect": "???"
+        "effect": "tr[?]"
       }
     ],
     "pieciornik": [
@@ -2010,7 +2010,7 @@
     "rdest_wezownik": [
       {
         "action": "przezuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "rojnik": [
@@ -2021,7 +2021,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "???"
+        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "rosiczka": [
@@ -2044,7 +2044,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "serce_kapitana": [
@@ -2140,7 +2140,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "odtr? jadalny?",
+        "effect": "odtr",
         "dont_bind": true
       },
       {
@@ -2157,7 +2157,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "--",
+        "effect": "<olive_drab>-zmc<grey>",
         "dont_bind": true
       }
     ],
@@ -2240,7 +2240,7 @@
     "ususzona_mandragora": [
       {
         "action": "przezuj",
-        "effect": "<medium_turquoise>+int<grey>"
+        "effect": "<medium_turquoise>+int<grey> odtr"
       },
       {
         "action": "rozgryz",
@@ -2305,7 +2305,7 @@
       },
       {
         "action": "rozkrusz",
-        "effect": "???"
+        "effect": "odtr"
       }
     ],
     "ususzony_lulek": [
@@ -2327,7 +2327,7 @@
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "<LimeGreen>+kon<grey>"
+        "effect": "<LimeGreen>+kon<grey> odtr"
       }
     ],
     "ususzony_ranog": [
@@ -2339,7 +2339,7 @@
     "ususzony_starzec": [
       {
         "action": "sproszkuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       },
       {
         "action": "zjedz",
