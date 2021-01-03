@@ -2151,13 +2151,13 @@
     ],
     "szczwol": [
       {
-        "action": "zjedz",
-        "effect": "tr[-kon -zrc]",
+        "action": "przyloz",
+        "effect": "<olive_drab>-zmc<grey>",
         "dont_bind": true
       },
       {
-        "action": "przyloz",
-        "effect": "<olive_drab>-zmc<grey>",
+        "action": "zjedz",
+        "effect": "tr[-kon -zrc]",
         "dont_bind": true
       }
     ],
