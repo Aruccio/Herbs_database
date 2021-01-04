@@ -1791,8 +1791,8 @@
     ],
     "muchomor_czerwony": [
       {
-        "action": "[N]zjedz",
-        "effect": "trj?",
+        "action": "zjedz",
+        "effect": "tr[-kon +glod]",
         "dont_bind": true
       }
     ],
@@ -2152,8 +2152,7 @@
     "szczwol": [
       {
         "action": "przyloz",
-        "effect": "<olive_drab>-zmc<grey>",
-        "dont_bind": true
+        "effect": "<olive_drab>-zmc<grey>"
       },
       {
         "action": "zjedz",
