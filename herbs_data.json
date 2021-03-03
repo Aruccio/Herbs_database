@@ -1432,7 +1432,7 @@
     "glog": [
       {
         "action": "przezuj",
-        "effect": "--",
+        "effect": "<LimeGreen>+kon<grey>",
         "dont_bind": true
       },
       {
@@ -1755,7 +1755,7 @@
       },
       {
         "action": "powachaj",
-        "effect": "--",
+        "effect": "-pan",
         "dont_bind": true
       }
     ],
@@ -1772,7 +1772,7 @@
       },
       {
         "action": "rozetrzyj",
-        "effect": "--",
+        "effect": "<LimeGreen>+kon<grey>",
         "don_bind": true
       }
     ],
@@ -2271,8 +2271,8 @@
         "effect": "<medium_turquoise>+mana<grey>"
       },
       {
-        "action": "polnij",
-        "effect": "odtr"
+        "action": "polknij",
+        "effect": "-kac odtr"
       }
     ],
     "ususzona_stroiczka": [
