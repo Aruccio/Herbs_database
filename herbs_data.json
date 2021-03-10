@@ -1191,12 +1191,12 @@
     ],
     "bagno": [
       {
-        "action": "zjedz",
-        "effect": "--?"
-      },
-      {
         "action": "przyloz",
         "effect": "odtr"
+      },
+      {
+        "action": "zjedz",
+        "effect": "--?"
       }
     ],
     "barwinek": [
@@ -1549,22 +1549,21 @@
       },
       {
         "action": "zjedz",
-        "effect": "<tomato>nic?<grey>",
+        "effect": "<tomato>--?<grey>",
         "dont_bind": true
       }
     ],
     "komosa": [
       {
-        "action": "zjedz",
-        "effect": "<olive_drab>-zmc <grey>"
+        "action": "przezuj",
+        "effect": "<LimeGreen>+kon<grey>"
       },
       {
-        "action": "przezuj",
-        "effect": "<LimeGreen>+kon<grey>",
-        "dont_bind": true
+        "action": "zjedz",
+        "effect": "<olive_drab>-zmc <grey>"
       }
     ],
-    "konopie": [
+    "konopia": [
       {
         "action": "spal",
         "effect": "+odp"
@@ -1766,13 +1765,13 @@
         "don_bind": true
       },
       {
-        "action": "przezuj",
-        "effect": "<tomato>+glod<grey>",
+        "action": "rozetrzyj",
+        "effect": "<LimeGreen>+kon<grey>",
         "don_bind": true
       },
       {
-        "action": "rozetrzyj",
-        "effect": "<LimeGreen>+kon<grey>",
+        "action": "przezuj",
+        "effect": "<tomato>+glod<grey>",
         "don_bind": true
       }
     ],
@@ -2014,14 +2013,15 @@
       }
     ],
     "rojnik": [
+
+      {
+        "action": "przyloz",
+        "effect": "<LimeGreen>+kon<grey>"
+      },
       {
         "action": "zjedz",
         "effect": "+pij",
         "dont_bind": true
-      },
-      {
-        "action": "przyloz",
-        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "rosiczka": [
@@ -2205,16 +2205,16 @@
     ],
     "ususzona_aralia": [
       {
-        "action": "polknij",
-        "effect": "+odp"
-      },
-      {
         "action": "zjedz",
         "effect": "<olive_drab>-zmc<grey> +kac"
       },
       {
         "action": "przezuj",
         "effect": "+zrc"
+      },
+      {
+        "action": "polknij",
+        "effect": "+odp"
       }
     ],
     "ususzona_boldoa": [
@@ -2253,12 +2253,12 @@
     ],
     "ususzona_melisa": [
       {
-        "action": "przezuj",
-        "effect": "+odp"
-      },
-      {
         "action": "zjedz",
         "effect": "<olive_drab>-zmc<grey>"
+      },
+      {
+        "action": "przezuj",
+        "effect": "+odp"
       },
       {
         "action": "powachaj",
@@ -2299,12 +2299,12 @@
     ],
     "ususzony_jaskier": [
       {
-        "action": "zjedz",
-        "effect": "tr[?]"
-      },
-      {
         "action": "rozkrusz",
         "effect": "odtr"
+      },
+      {
+        "action": "zjedz",
+        "effect": "tr[?]"
       }
     ],
     "ususzony_lulek": [
