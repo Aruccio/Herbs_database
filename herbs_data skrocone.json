@@ -1280,7 +1280,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[omamy]",
         "dont_bind": true
       }
     ],
