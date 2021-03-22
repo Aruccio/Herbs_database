@@ -240,6 +240,14 @@
       "mnoga_dopelniacz": "czterokanciastych rozgalezionych lodyg",
       "mnoga_biernik": "czterokanciaste rozgalezione lodygi"
     },
+    "dziewanna": {
+      "mianownik": "zolty wielokwiatowy klos",
+      "dopelniacz": "zoltego wielokwiatowego klosa",
+      "biernik": "zolty wielokwiatowy klos",
+      "mnoga_mianownik": "zolte wielokwiatowe klosy",
+      "mnoga_dopelniacz": "zoltych wielokwiatowych klosow",
+      "mnoga_biernik": "zolte wielokwiatowe klosy"
+    },
     "glog": {
       "mianownik": "bialy maly kwiat",
       "dopelniacz": "bialego malego kwiatu",
@@ -736,6 +744,14 @@
       "mnoga_dopelniacz": "kanciastych parzacych lodyg",
       "mnoga_biernik": "kanciaste parzace lodygi"
     },
+    "poslonek": {
+      "mianownik": "cienka kosmata lodyzka",
+      "dopelniacz": "cienkiej kosmatej lodyzki",
+      "biernik": "cienka kosmata lodyzke",
+      "mnoga_mianownik": "cienke kosmate lodyzki",
+      "mnoga_dopelniacz": "cienkich kosmatych lodyzek",
+      "mnoga_biernik": "cienkie kosmate lodyzki"
+    },
     "potoslin": {
       "mianownik": "pierzasty ogonkowy lisc",
       "dopelniacz": "pierzastego ogonkowego liscia",
@@ -1008,6 +1024,14 @@
       "mnoga_dopelniacz": "niepozornych sinozielonych roslinek",
       "mnoga_biernik": "niepozorne sinozielone roslinki"
     },
+    "ususzona_aralia": {
+      "mianownik": "szary kolczasty ususzony korzen",
+      "dopelniacz": "szarego kolczastego ususzonego korzenia",
+      "biernik": "szary kolczasty ususzony korzen",
+      "mnoga_mianownik": "szare kolczaste ususzone korzenie",
+      "mnoga_dopelniacz": "szarych kolczastych ususzonych korzeni",
+      "mnoga_biernik": "szare kolczaste ususzone korzenie"
+    },
     "ususzona_boldoa": {
       "mianownik": "szarozielony szorstki ususzony lisc",
       "dopelniacz": "szarozielonego szorstkiego ususzonego liscia",
@@ -1047,14 +1071,6 @@
       "mnoga_mianownik": "owlosione aromatyczne ususzone liscie",
       "mnoga_dopelniacz": "owlosionych aromatycznych ususzonych lisci",
       "mnoga_biernik": "owlosione aromatyczne ususzone liscie"
-    },
-    "ususzony_perelkowiec": {
-      "mianownik": "dlugi zielonobrunatny ususzony strak",
-      "dopelniacz": "dlugiego zielonobrunatnego ususzonego straku",
-      "biernik": "dlugi zielonobrunatny ususzony strak",
-      "mnoga_mianownik": "dlugie zielonobrunatne  ususzonestraki",
-      "mnoga_dopelniacz": "dlugich zielonobrunatnych ususzonych strakow",
-      "mnoga_biernik": "dlugie zielonobrunatne ususzone straki"
     },
     "ususzona_rosiczka": {
       "mianownik": "bialokwitnaca drobna ususzona roslinka",
@@ -1096,6 +1112,14 @@
       "mnoga_dopelniacz": "brudnozoltych fioletowo-zylkowanych ususzonych kwiatow",
       "mnoga_biernik": "brudnozolte fioletowo-zylkowane ususzone kwiaty"
     },
+    "ususzony_perelkowiec": {
+      "mianownik": "dlugi zielonobrunatny ususzony strak",
+      "dopelniacz": "dlugiego zielonobrunatnego ususzonego straku",
+      "biernik": "dlugi zielonobrunatny ususzony strak",
+      "mnoga_mianownik": "dlugie zielonobrunatne ususzone straki",
+      "mnoga_dopelniacz": "dlugich zielonobrunatnych ususzonych strakow",
+      "mnoga_biernik": "dlugie zielonobrunatne ususzone straki"
+    },
     "ususzony_przelot": {
       "mianownik": "kremowy owlosiony ususzony kwiat",
       "dopelniacz": "kremowego owlosionego ususzonego kwiatu",
@@ -1135,30 +1159,6 @@
       "mnoga_mianownik": "zolte rurkowate kwiaty",
       "mnoga_dopelniacz": "zoltych rurkowatych kwiatow",
       "mnoga_biernik": "zolte rurkowate kwiaty"
-    },
-    "ususzona_aralia": {
-      "mianownik": "szary kolczasty ususzony korzen",
-      "dopelniacz": "szarego kolczastego ususzonego korzenia",
-      "biernik": "szary kolczasty ususzony korzen",
-      "mnoga_mianownik": "szare kolczaste ususzone korzenie",
-      "mnoga_dopelniacz": "szarych kolczastych ususzonych korzeni",
-      "mnoga_biernik": "szare kolczaste ususzone korzenie"
-    },
-    "dziewanna": {
-      "mianownik": "zolty wielokwiatowy klos",
-      "dopelniacz": "zoltego wielokwiatowego klosu",
-      "biernik": "zolty wielokwiatowy klos",
-      "mnoga_mianownik": "zolte wielokwiatowe klosy",
-      "mnoga_dopelniacz": "zoltych wielokwiatowych klosow",
-      "mnoga_biernik": "zolte wielokwiatowe klosy"
-    },
-    "poslonek": {
-      "mianownik": "cienka kosmata lodyzka",
-      "dopelniacz": "cienkiej kosmatej lodyzki",
-      "biernik": "cienka kosmata lodyzke",
-      "mnoga_mianownik": "cienkie kosmate lodyzki",
-      "mnoga_dopelniacz": "cienkich kosmatych lodyzek",
-      "mnoga_biernik": "cienkie kosmate lodyzki"
     }
   },
   "version": 4,
