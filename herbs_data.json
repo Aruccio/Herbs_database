@@ -1177,6 +1177,10 @@
       {
         "action": "zjedz",
         "effect": "<olive_drab>-zmc<grey>"
+      },
+      {
+        "action": "przyloz",
+        "effect": "<LimeGreen>+kon<grey>"
       }
     ],
     "babka": [
@@ -1192,7 +1196,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "???"
+        "effect": "--?"
       }
     ],
     "barwinek": [
@@ -1213,7 +1217,7 @@
       },
       {
         "action": "przezuj",
-        "effect": "odtr?"
+        "effect": "odtr"
       }
     ],
     "bielun": [
@@ -1223,7 +1227,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[-int +pan]",
         "dont_bind": true
       }
     ],
