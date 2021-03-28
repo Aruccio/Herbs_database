@@ -1273,7 +1273,7 @@
     "borowka": [
       {
         "action": "zjedz",
-        "effect": "jad",
+        "effect": "jadalny",
         "dont_bind": true
       }
     ],
@@ -1554,13 +1554,12 @@
     ],
     "komosa": [
       {
-        "action": "zjedz",
-        "effect": "<olive_drab>-zmc <grey>"
+        "action": "przezuj",
+        "effect": "<LimeGreen>+kon<grey>"
       },
       {
-        "action": "przezuj",
-        "effect": "--",
-        "dont_bind": true
+        "action": "zjedz",
+        "effect": "<olive_drab>-zmc <grey>"
       }
     ],
     "konopie": [
@@ -1576,7 +1575,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[zmc+ zrc-]",
         "dont_bind": true
       }
     ],
@@ -1596,7 +1595,7 @@
     "kruszyna": [
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[+glod]",
         "dont_bind": true
       }
     ],
@@ -1618,7 +1617,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[-zrc +glod]",
         "dont_bind": true
       }
     ],
@@ -1666,13 +1665,17 @@
     "lulecznica": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc<grey>"
+        "effect": "<olive_drab>-zmc<grey> odtr"
+      },
+      {
+        "action": "przyloz",
+        "effect": "-pan"
       }
     ],
     "lulek": [
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[+upicie,+glod,-kon]",
         "dont_bind": true
       }
     ],
@@ -1691,18 +1694,18 @@
     "mak_lekarski": [
       {
         "action": "powachaj",
-        "effect": "tr +odp"
+        "effect": "tr[+pan] +odp"
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[-kon +zmc -zrc]",
         "dont_bind": true
       }
     ],
     "mak_polny": [
       {
         "action": "zjedz",
-        "effect": "<LimeGreen>+kon<grey> tr"
+        "effect": "<LimeGreen>+kon<grey> tr[+zme -zrc]"
       }
     ],
     "makownik": [
