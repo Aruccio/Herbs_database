@@ -2309,16 +2309,26 @@
         "effect": "<medium_turquoise>+int<grey>"
       }
     ],
+    "ususzony_perelkowiec": [
+      {
+        "action": "zjedz",
+        "effect": "tr[-kon]"
+      },
+      {
+        "action": "rozetrzyj",
+        "effect": "???"
+      }
+    ],
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "???"
+        "effect": "<LimeGreen>+kon<grey> odtr"
       }
     ],
     "ususzony_ranog": [
       {
         "action": "przezuj",
-        "effect": "odtr <LimeGreen>+kon<grey>"
+        "effect": "<LimeGreen>+kon<grey> odtr"
       }
     ],
     "ususzony_starzec": [
@@ -2328,7 +2338,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[+zmc,+upicie]",
         "dont_bind": true
       }
     ],
@@ -2348,25 +2358,6 @@
         "effect": "odtr"
       }
     ],
-    "ususzona_aralia": [
-      {
-        "action": "polknij",
-        "effect": "+odp"
-      },
-      {
-        "action": "zjedz",
-        "effect": "<olive_drab>-zmc<grey> +kac"
-      },
-      {
-        "action": "przezuj",
-        "effect": "+zrc"
-      }
-    ],
-    "dziewanna": [
-      {
-        "action": "zjedz",
-        "effect": "odtr"
-      }
-    ]
+
   }
 }
