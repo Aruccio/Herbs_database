@@ -1455,7 +1455,7 @@
     ],
     "hubka": [
       {
-        "action": ".",
+        "action": "...",
         "effect": "rozpalenie ognia",
         "dont_bind": true
       }
@@ -1741,7 +1741,7 @@
     "maslak": [
       {
         "action": "zjedz",
-        "effect": "jad",
+        "effect": "jadalny",
         "dont_bind": true
       }
     ],
@@ -1752,24 +1752,24 @@
       },
       {
         "action": "powachaj",
-        "effect": "--",
+        "effect": "-pan",
         "dont_bind": true
       }
     ],
     "mieta": [
       {
-        "action": "przezuj",
-        "effect": "<tomato>+glod<grey>",
-        "don_bind": true
+        "action": "powachaj",
+        "effect": "<olive_drab>-zmc<grey>"
       },
       {
         "action": "rozetrzyj",
-        "effect": "--",
+        "effect": "<LimeGreen>+kon<grey>",
         "don_bind": true
       },
       {
-        "action": "powachaj",
-        "effect": "<olive_drab>-zmc<grey>"
+        "action": "przezuj",
+        "effect": "<tomato>+glod<grey>",
+        "don_bind": true
       }
     ],
     "mniszek": [
