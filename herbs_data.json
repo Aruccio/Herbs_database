@@ -2347,26 +2347,6 @@
         "action": "przyloz",
         "effect": "odtr"
       }
-    ],
-    "ususzona_aralia": [
-      {
-        "action": "polknij",
-        "effect": "+odp"
-      },
-      {
-        "action": "zjedz",
-        "effect": "<olive_drab>-zmc<grey> +kac"
-      },
-      {
-        "action": "przezuj",
-        "effect": "+zrc"
-      }
-    ],
-    "dziewanna": [
-      {
-        "action": "zjedz",
-        "effect": "odtr"
-      }
     ]
   }
 }
