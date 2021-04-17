@@ -1788,14 +1788,14 @@
     "muchomor_czerwony": [
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr[-kon +glod]",
         "dont_bind": true
       }
     ],
     "muchomor_sromotnikowy": [
       {
         "action": "zjedz",
-        "effect": "tr",
+        "effect": "tr?",
         "dont_bind": true
       }
     ],
@@ -1818,7 +1818,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "odtr"
+        "effect": "odtr?"
       },
       {
         "action": "przyloz",
@@ -1845,7 +1845,7 @@
     "oset": [
       {
         "action": "przezuj",
-        "effect": "tr",
+        "effect": "tr[?]",
         "dont_bind": true
       }
     ],
@@ -1863,13 +1863,6 @@
       }
     ],
     "perelkowiec": [
-      {
-        "action": "zjedz",
-        "effect": "tr",
-        "dont_bind": true
-      }
-    ],
-    "ususzony_perelkowiec": [
       {
         "action": "zjedz",
         "effect": "tr",
