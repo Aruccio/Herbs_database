@@ -1582,7 +1582,7 @@
     "kozlarz": [
       {
         "action": "zjedz",
-        "effect": "jad",
+        "effect": "jadalny",
         "dont_bind": true
       }
     ],
@@ -2125,6 +2125,10 @@
       }
     ],
     "szalwia": [
+      {
+        "action": "zjedz",
+        "effect": "<medium_turquoise>+mana<grey>"
+      },
       {
         "action": "przyloz",
         "effect": "<LimeGreen>+kon<grey> +zmc"
