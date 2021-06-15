@@ -2243,7 +2243,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "<medium_turquoise>+mana<grey>"
+        "effect": "<medium_turquoise>+mana<grey> odtr"
       },
       {
         "action": "zjedz",
