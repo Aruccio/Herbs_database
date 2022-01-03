@@ -1767,8 +1767,7 @@
       },
       {
         "action": "rozetrzyj",
-        "effect": "<LimeGreen>+kon<grey>",
-        "don_bind": true
+        "effect": "<LimeGreen>+kon<grey>"
       },
       {
         "action": "przezuj",
