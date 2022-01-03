@@ -1231,7 +1231,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr[-int +pan]",
+        "effect": "<firebrick>tr[-int +pan]<grey>",
         "dont_bind": true
       }
     ],
@@ -1242,7 +1242,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr[-kon -sp]",
+        "effect": "<firebrick>tr[-kon -sp]<grey>",
         "dont_bind": true
       }
     ],
@@ -1263,7 +1263,7 @@
     "borowik_szatanski": [
       {
         "action": "zjedz",
-        "effect": "tr[?]",
+        "effect": "<firebrick>tr[?]<grey>",
         "dont_bind": true
       }
     ],
@@ -1288,7 +1288,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "tr[omamy]",
+        "effect": "<firebrick>tr[omamy]<grey>",
         "dont_bind": true
       }
     ],
@@ -1310,7 +1310,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "tr[+upicie]",
+        "effect": "<firebrick>tr[+upicie]<grey>",
         "dont_bind": true
       },
       {
@@ -1837,7 +1837,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "-kon <tomato>+glod<grey>",
+        "effect": "<tomato>-kon +glod<grey>",
         "dont_bind": true
       }
     ],
@@ -1849,8 +1849,8 @@
     ],
     "oset": [
       {
-        "action": "przezuj",
-        "effect": "<firebrick>tr[?]<grey>",
+        "action": "zjedz",
+        "effect": "<firebrick>tr[nic]<grey>",
         "dont_bind": true
       }
     ],
@@ -1907,7 +1907,7 @@
     "podbial": [
       {
         "action": "powachaj",
-        "effect": "<olive_drab>-zmc<medium_purple>o[pl]<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>o[pl]<grey>"
       },
       {
         "action": "zjedz",
@@ -2147,11 +2147,6 @@
       {
         "action": "zjedz",
         "effect": "<medium_purple>o?<grey>"
-      },
-      {
-        "action": "rozgryz",
-        "effect": "--",
-        "dont_bind": true
       }
     ],
     "szczwol": [
