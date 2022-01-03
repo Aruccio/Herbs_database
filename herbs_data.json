@@ -1215,6 +1215,10 @@
         "effect": "jadalny",
         "dont_bind": true
       },
+	  {
+		  "action": "wetrzyj",
+		  "effect": "<light_slate_blue>o[zak]<grey>"
+	  },
       {
         "action": "przezuj",
         "effect": "odtr"
@@ -1348,11 +1352,11 @@
     "chaber": [
       {
         "action": "przezuj",
-        "effect": "odtr"
+        "effect": "<light_slate_blue>odtr<reset>"
       },
       {
         "action": "powachaj",
-        "effect": "odtr"
+        "effect": "<light_slate_blue>o[pl]<grey>"
       },
       {
         "action": "zjedz",
@@ -1654,7 +1658,7 @@
     "lukrecja": [
       {
         "action": "przyloz",
-        "effect": "odtr"
+        "effect": "<light_slate_blue>o[sk]<grey>"
       },
       {
         "action": "przezuj",
@@ -1812,17 +1816,18 @@
       }
     ],
     "nawloc": [
+      
       {
+        "action": "przyloz",
+        "effect": "<light_slate_blue>o[sk]<grey>"
+      },
+	  {
         "action": "rozgryz",
         "effect": "odtr"
       },
       {
         "action": "zjedz",
         "effect": "odtr?"
-      },
-      {
-        "action": "przyloz",
-        "effect": "odtr"
       }
     ],
     "nostrzyk": [
@@ -1896,13 +1901,13 @@
     "plucnica": [
       {
         "action": "sproszkuj",
-        "effect": "odtr"
-      }
+        "effect": "<light_slate_blue>o[pl]<grey>"
+		}
     ],
     "podbial": [
       {
         "action": "powachaj",
-        "effect": "<olive_drab>-zmc<grey>"
+        "effect": "<olive_drab>-zmc<light_slate_blue>o[pl]<grey>"
       },
       {
         "action": "zjedz",
@@ -2300,7 +2305,7 @@
     "ususzony_jaskier": [
       {
         "action": "rozkrusz",
-        "effect": "odtr"
+        "effect": "<light_slate_blue>o[sk]<grey>"
       },
       {
         "action": "zjedz",
@@ -2316,7 +2321,7 @@
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "???"
+        "effect": "<light_slate_blue>o[sk]<grey>"
       }
     ],
     "ususzony_ranog": [
@@ -2328,7 +2333,7 @@
     "ususzony_starzec": [
       {
         "action": "sproszkuj",
-        "effect": "odtr"
+        "effect": "<light_slate_blue>o[sk]<grey>"
       },
       {
         "action": "zjedz",
