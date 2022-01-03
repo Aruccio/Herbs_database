@@ -1,4 +1,4 @@
-A {
+{
   "herb_id_to_odmiana": {
     "aralia": {
       "mianownik": "szary kolczasty korzen",
@@ -2024,7 +2024,7 @@ A {
     "rosiczka": [
       {
         "action": "polknij",
-        "effect": "--",
+        "effect": "-pan",
         "dont_bind": true
       }
     ],
