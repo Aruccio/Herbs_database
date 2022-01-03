@@ -2318,7 +2318,7 @@
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "<medium_purple>o[sk|trad]<grey>"
+        "effect": "<LimeGreen>+kon <medium_purple>o[sk|trad]<grey>"
       }
     ],
     "ususzony_ranog": [
