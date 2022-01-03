@@ -2146,7 +2146,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<light_slate_blue>o?<grey>",
+        "effect": "<light_slate_blue>o?<grey>"
       },
       {
         "action": "rozgryz",
