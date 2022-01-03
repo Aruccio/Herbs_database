@@ -1166,7 +1166,7 @@
     "aralia": [
       {
         "action": "zjedz",
-        "effect": "+odp <olive_drab>-zmc<grey> +kac"
+        "effect": "<olive_drab>-zmc<grey> +kac"
       },
       {
         "action": "przezuj",
@@ -1569,7 +1569,7 @@
     "konopie": [
       {
         "action": "spal",
-        "effect": "+odp"
+        "effect": "--"
       }
     ],
     "konwalia": [
@@ -2022,7 +2022,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "+pij",
+        "effect": "+upicie",
         "dont_bind": true
       }
     ],
@@ -2219,7 +2219,7 @@
       },
       {
         "action": "polknij",
-        "effect": "+odp[tr]"
+        "effect": "+od[tr]"
       }
     ],
     "ususzona_boldoa": [
