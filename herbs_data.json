@@ -1210,13 +1210,9 @@
       }
     ],
     "bez": [
-	  {
-		  "action": "wetrzyj",
-		  "effect": "<medium_purple>o[zak]<grey>"
-	  },
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>o[pok|zak]<grey>"
       },
 	  {
         "action": "zjedz",
@@ -1360,7 +1356,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<tomato>+prg<grey>",
+        "effect": "--",
         "dont_bind": true
       }
     ],
