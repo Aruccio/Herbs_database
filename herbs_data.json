@@ -730,10 +730,10 @@
     },
     "pokrzyk": {
       "mianownik": "grube walcowate klacze",
-      "dopelniacz": "grubego walcowategi klacza",
+      "dopelniacz": "grubego walcowatego klacza",
       "biernik": "grube walcowate klacze",
       "mnoga_mianownik": "grube walcowate klacza",
-      "mnoga_dopelniacz": "grubych walcowatych klacz",
+      "mnoga_dopelniacz": "grubych walcowatych klaczy",
       "mnoga_biernik": "grube walcowate klacza"
     },
     "pokrzywa": {
@@ -1187,7 +1187,12 @@
       {
         "action": "przyloz",
         "effect": "<LimeGreen>+kon<grey>"
-      }
+      },
+	  {
+		  "action":"zjedz",
+		  "effect": "--",
+		  "dont_bind": true
+	  }
     ],
     "bagno": [
       {
@@ -1245,6 +1250,11 @@
     "boldoa": [
       {
         "action": "zjedz",
+        "effect": "--",
+        "dont_bind": true
+      },
+	  {
+        "action": "rozkrusz",
         "effect": "--",
         "dont_bind": true
       }
@@ -1378,7 +1388,12 @@
       {
         "action": "przezuj",
         "effect": "<misty_rose>+od[el]<grey>"
-      }
+      },
+	  {
+		  "action":"zjedz",
+		  "effect":"--",
+		  "dont_bind":true
+	  }
     ],
     "czosnek": [
       {
@@ -1660,6 +1675,11 @@
         "action": "przezuj",
         "effect": "<tomato>+prg<grey>",
         "dont_bind": true
+      },
+	  {
+        "action": "przezuj",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "lulecznica": [
@@ -1734,7 +1754,7 @@
     "marzanna": [
       {
         "action": "zjedz",
-        "effect": "jadalna",
+        "effect": "--",
         "dont_bind": true
       }
     ],
@@ -1794,7 +1814,7 @@
     "muchomor_sromotnikowy": [
       {
         "action": "zjedz",
-        "effect": "tr?",
+        "effect": "<firebrick>tr[+glod -spost - kon]<grey>",
         "dont_bind": true
       }
     ],
@@ -1906,7 +1926,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "jadalny",
+        "effect": "--",
         "dont_bind": true
       }
     ],
