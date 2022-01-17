@@ -2073,7 +2073,7 @@
     "siezygron": [
       {
         "action": "rozgryz",
-        "effect": "<medium_purple>o[gad|ins|ros|zak]<grey>"
+        "effect": "<medium_purple>o[gad|ins|ros]<grey>"
       }
     ],
     "skedar": [
