@@ -1188,11 +1188,11 @@
         "action": "przyloz",
         "effect": "<LimeGreen>+kon<grey>"
       },
-	  {
-		  "action":"zjedz",
-		  "effect": "--",
-		  "dont_bind": true
-	  }
+      {
+        "action": "zjedz",
+        "effect": "<medium_purple>+o[jadpajaka]<grey>",
+        "dont_bind": true
+      }
     ],
     "bagno": [
       {
@@ -1301,7 +1301,7 @@
     "bylica_cytwarowa": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas]<grey>"
+        "effect": "<medium_purple>o[pas|zak?]<grey>"
       },
       {
         "action": "zjedz",
@@ -1312,7 +1312,7 @@
     "bylica_piolun": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|trad]<grey>"
+        "effect": "<medium_purple>o[pas|sk?|trad]<grey>"
       },
       {
         "action": "rozgryz",
@@ -1398,7 +1398,7 @@
     "czosnek": [
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o?<grey>",
+        "effect": "<medium_purple>o[zak]<grey>",
         "dont_bind": true
       }
     ],
@@ -1430,12 +1430,22 @@
       {
         "action": "przezuj",
         "effect": "<gold>+wyt<grey>"
+      },
+      {
+        "action": "zjedz",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "dziurawiec": [
       {
         "action": "rozgryz",
         "effect": "<LimeGreen>+kon<grey> +zmc"
+      },
+      {
+        "action": "zjedz",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "dziewanna": [
@@ -1559,12 +1569,11 @@
     "kola": [
       {
         "action": "rozgryz",
-        "effect": "<tomato>+glod<grey> +panika"
+        "effect": "<olive_drab>-zmc <tomato>+glod<grey> +panika"
       },
       {
         "action": "zjedz",
-        "effect": "<tomato>+glod<grey>",
-        "dont_bind": true
+        "effect": "-kac <tomato>+glod<grey>"
       }
     ],
     "komosa": [
@@ -1574,7 +1583,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<olive_drab>-zmc <grey>"
+        "effect": "<olive_drab>-zmc<grey>"
       }
     ],
     "konopie": [
@@ -1612,6 +1621,11 @@
         "action": "zjedz",
         "effect": "<firebrick>tr[+glod]<grey>",
         "dont_bind": true
+      },
+      {
+        "action": "przezuj",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "krzyzownica": [
@@ -1639,7 +1653,7 @@
     "kurzyslad": [
       {
         "action": "zjedz",
-        "effect": "-sp",
+        "effect": "<firebrick>tr[-sp]<grey>",
         "dont_bind": true
       }
     ],
@@ -1647,6 +1661,11 @@
       {
         "action": "przezuj",
         "effect": "<olive_drab>-zmc<grey>"
+      },
+      {
+        "action": "zjedz",
+        "effect": "--",
+        "dont_bind": true
       }
     ],
     "lawenda": [
@@ -1674,6 +1693,11 @@
       {
         "action": "przezuj",
         "effect": "<tomato>+prg<grey>",
+        "dont_bind": true
+      },
+      {
+        "action": "zjedz",
+        "effect": "--",
         "dont_bind": true
       },
 	  {
@@ -1848,7 +1872,7 @@
     "nostrzyk": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc <medium_purple>o[pok]<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>o[ins|pok]<grey>"
       },
       {
         "action": "rozgryz",
@@ -1865,21 +1889,21 @@
     "oset": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[nic]<grey>",
+        "effect": "<firebrick>tr[+zmc]<grey>",
         "dont_bind": true
       }
     ],
     "ostrozeczka": [
       {
         "action": "zjedz",
-        "effect": "<tomato>+glod<grey>",
+        "effect": "<tomato>+glod +prg<grey>",
         "dont_bind": true
       }
     ],
     "ostrozen": [
       {
         "action": "zjedz",
-        "effect": "<misty_rose>+od[um]<grey>"
+        "effect": "<misty_rose>+od[um]<grey> -pan"
       }
     ],
     "perelkowiec": [
@@ -1902,14 +1926,14 @@
     "pierscieniak": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr[-kon +zmc]<grey>",
         "dont_bind": true
       }
     ],
     "pierscieniak_gryn": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon]<grey>",
+        "effect": "<firebrick>tr[-kon +zmc]<grey>",
         "dont_bind": true
       }
     ],
