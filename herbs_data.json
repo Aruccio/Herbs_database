@@ -1190,18 +1190,14 @@
       },
       {
         "action": "zjedz",
-        "effect": "<medium_purple>+o[jadpajaka]<grey>",
+        "effect": "<medium_purple>+odtr<grey>",
         "dont_bind": true
       }
     ],
     "bagno": [
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o[pas]<grey>"
-      },
-	  {
-        "action": "zjedz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "barwinek": [
@@ -1211,18 +1207,13 @@
       },
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o[gad|ins]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "bez": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[pok|zak]<grey>"
-      },
-	  {
-        "action": "zjedz",
-        "effect": "jadalny",
-        "dont_bind": true
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "bielun": [
@@ -1232,7 +1223,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-int +pan]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1243,7 +1234,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon -sp]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1269,7 +1260,7 @@
     "borowik_szatanski": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1294,14 +1285,14 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[omamy]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "bylica_cytwarowa": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|zak?]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
@@ -1312,11 +1303,11 @@
     "bylica_piolun": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|sk?|trad]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "rozgryz",
-        "effect": "<firebrick>tr[+upicie]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       },
       {
@@ -1352,42 +1343,37 @@
     "centuria": [
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "chaber": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[ins|ros]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "powachaj",
-        "effect": "<medium_purple>o[pl]<grey>"
-      },
-      {
-        "action": "zjedz",
-        "effect": "--",
-        "dont_bind": true
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "ciemiernik": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-zrc -wyt +prg]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "ciemiezyca": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-zrc +zmc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "czeremcha": [
       {
         "action": "przezuj",
-        "effect": "<misty_rose>+od[el]<grey>"
+        "effect": "<misty_rose>+odp<grey>"
       },
 	  {
 		  "action":"zjedz",
@@ -1398,21 +1384,17 @@
     "czosnek": [
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o[zak]<grey>",
+        "effect": "<medium_purple>odtr<grey>",
         "dont_bind": true
       }
     ],
     "deliona": [
       {
         "action": "zjedz",
-        "effect": "<olive_drab>-zmc <grey>"
+        "effect": "<olive_drab>-zmc<grey>"
       }
     ],
     "deren": [
-      {
-        "action": "przezuj",
-        "effect": "<medium_purple>o?<grey>"
-      },
       {
         "action": "zjedz",
         "effect": "<tomato>+prg<grey>",
@@ -1430,28 +1412,18 @@
       {
         "action": "przezuj",
         "effect": "<gold>+wyt<grey>"
-      },
-      {
-        "action": "zjedz",
-        "effect": "--",
-        "dont_bind": true
       }
     ],
     "dziurawiec": [
       {
         "action": "rozgryz",
         "effect": "<LimeGreen>+kon<grey> +zmc"
-      },
-      {
-        "action": "zjedz",
-        "effect": "--",
-        "dont_bind": true
       }
     ],
     "dziewanna": [
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "glog": [
@@ -1507,24 +1479,20 @@
     ],
     "jaskier": [
       {
-        "action": "rozkrusz",
-        "effect": "<medium_purple>o?<grey>"
-      },
-      {
         "action": "przezuj",
-        "effect": "<firebrick>tr[-sp]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-sp]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "jemiola": [
       {
         "action": "zjedz",
-        "effect": "<misty_rose>+od[cz]<grey>"
+        "effect": "<misty_rose>+odp<grey>"
       }
     ],
     "jezyna": [
@@ -1537,7 +1505,7 @@
     "kakol": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1551,7 +1519,7 @@
     "kasztanowiec": [
       {
         "action": "przyloz",
-        "effect": "<olive_drab>-zmc <grey>"
+        "effect": "<olive_drab>-zmc<grey>"
       },
       {
         "action": "zjedz",
@@ -1599,7 +1567,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[zmc+ zrc-]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1619,7 +1587,7 @@
     "kruszyna": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       },
       {
@@ -1631,7 +1599,7 @@
     "krzyzownica": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[gad|zak]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
@@ -1646,14 +1614,14 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-zrc +glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "kurzyslad": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-sp]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1675,7 +1643,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "<misty_rose>+od[tr]<grey>"
+        "effect": "<misty_rose>+odp<grey>"
       }
     ],
     "lubczyk": [
@@ -1688,7 +1656,7 @@
     "lukrecja": [
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o[sk|trad]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "przezuj",
@@ -1709,7 +1677,7 @@
     "lulecznica": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc <medium_purple>o?<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>odtr?<grey>"
       },
       {
         "action": "przyloz",
@@ -1719,7 +1687,7 @@
     "lulek": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+upicie,+glod,-kon]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1738,18 +1706,18 @@
     "mak_lekarski": [
       {
         "action": "powachaj",
-        "effect": "<misty_rose>+od[sm] <firebrick>tr[+pan]<grey>"
+        "effect": "<misty_rose>+odp <firebrick>tr<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon +zmc -zrc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "mak_polny": [
       {
         "action": "zjedz",
-        "effect": "<LimeGreen>+kon <firebrick>tr[+zme -zrc]<grey>"
+        "effect": "<LimeGreen>+kon <firebrick>tr<grey>"
       }
     ],
     "makownik": [
@@ -1831,14 +1799,14 @@
     "muchomor_czerwony": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon +glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "muchomor_sromotnikowy": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+glod -spost - kon]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1855,24 +1823,24 @@
       }
     ],
     "nawloc": [
-      
+
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o[sk]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
-	  {
+      {
         "action": "rozgryz",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       }
     ],
     "nostrzyk": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc <medium_purple>o[ins|pok]<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>odtr<grey>"
       },
       {
         "action": "rozgryz",
@@ -1889,7 +1857,7 @@
     "oset": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+zmc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1903,13 +1871,13 @@
     "ostrozen": [
       {
         "action": "zjedz",
-        "effect": "<misty_rose>+od[um]<grey> -pan"
+        "effect": "<misty_rose>+odp<grey> -pan"
       }
     ],
     "perelkowiec": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1920,33 +1888,33 @@
       },
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[gad|ins|ros]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "pierscieniak": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon +zmc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "pierscieniak_gryn": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon +zmc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "plucnica": [
       {
         "action": "sproszkuj",
-        "effect": "<medium_purple>o[pl]<grey>"
+        "effect": "<medium_purple>odp<grey>"
 		}
     ],
     "podbial": [
       {
         "action": "powachaj",
-        "effect": "<olive_drab>-zmc <medium_purple>o[pl]<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
@@ -1964,7 +1932,7 @@
     "pokrzyk": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon -sp -wyt]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -1983,7 +1951,7 @@
     "potoslin": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+zmc, +glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2004,7 +1972,7 @@
     "przelot": [
       {
         "action": "sproszkuj",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       }
     ],
     "przesl": [
@@ -2023,17 +1991,17 @@
     "ranog": [
       {
         "action": "przezuj",
-        "effect": "<LimeGreen>+kon <medium_purple>o?<grey>"
+        "effect": "<LimeGreen>+kon <medium_purple>odtr<grey>"
       }
     ],
     "rauwolfia": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+zmc, +glod]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2051,7 +2019,7 @@
     "rdest_wezownik": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o[gad]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "rojnik": [
@@ -2081,11 +2049,11 @@
     "rumianek": [
       {
         "action": "powachaj",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       }
     ],
     "serce_kapitana": [
@@ -2097,7 +2065,7 @@
     "siezygron": [
       {
         "action": "rozgryz",
-        "effect": "<medium_purple>o[gad|ins|ros]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ],
     "skedar": [
@@ -2123,14 +2091,14 @@
     "starzec": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "stroczek": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2144,7 +2112,7 @@
     "stulicha": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon +kac]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2164,7 +2132,7 @@
     "szalej": [
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2185,7 +2153,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       }
     ],
     "szczwol": [
@@ -2195,7 +2163,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[-kon -zrc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2209,11 +2177,11 @@
     "tojad": [
       {
         "action": "przezuj",
-        "effect": "-kac <medium_purple>o?<grey>"
+        "effect": "-kac <medium_purple>odtr?<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[+pan, +glod, -kon]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2253,19 +2221,19 @@
       },
       {
         "action": "polknij",
-        "effect": "+od[tr]"
+        "effect": "+odp"
       }
     ],
     "ususzona_boldoa": [
       {
         "action": "rozkrusz",
-        "effect": "<medium_purple>o[gad|ins|pok|ros] <tomato>+glod<grey>"
+        "effect": "<medium_purple>odtr <tomato>+glod<grey>"
       }
     ],
     "ususzona_konopia": [
       {
         "action": "spal",
-        "effect": "<misty_rose>+od[cz]<grey>"
+        "effect": "<misty_rose>+odp<grey>"
       }
     ],
     "ususzona_macznica": [
@@ -2277,11 +2245,11 @@
     "ususzona_mandragora": [
       {
         "action": "przezuj",
-        "effect": "<gold>+int<medium_purple> o[ins]<grey>"
+        "effect": "<gold>+int<medium_purple> odtr<grey>"
       },
       {
         "action": "rozgryz",
-        "effect": "<medium_turquoise>+mana <medium_purple>o?<grey>"
+        "effect": "<medium_turquoise>+mana <medium_purple>odtr?<grey>"
       },
       {
         "action": "zjedz",
@@ -2300,7 +2268,7 @@
       },
       {
         "action": "powachaj",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       }
     ],
     "ususzona_rosiczka": [
@@ -2310,7 +2278,7 @@
       },
       {
         "action": "polknij",
-        "effect": "-kac <medium_purple>o[pchly]<grey>"
+        "effect": "-kac <medium_purple>odtr<grey>"
       }
     ],
     "ususzona_stroiczka": [
@@ -2321,14 +2289,14 @@
       },
       {
         "action": "sproszkuj",
-        "effect": "<firebrick>tr[-kon +glod +zmc]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
     "ususzony_czosnek": [
       {
         "action": "wetrzyj",
-        "effect": "<misty_rose>+od[sm]<grey>"
+        "effect": "<misty_rose>+odp<grey>"
       },
       {
         "action": "zjedz",
@@ -2338,11 +2306,11 @@
     "ususzony_jaskier": [
       {
         "action": "rozkrusz",
-        "effect": "<medium_purple>o[sk|trad]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>"
+        "effect": "<firebrick>tr<grey>"
       }
     ],
     "ususzony_lulek": [
@@ -2350,31 +2318,31 @@
         "action": "rozgryz",
         "effect": "<gold>+int<grey>"
       },
-	  {
-		  "action":"przezuj",
-		  "effect": "<medium_purple>o[ros?]<grey>"
-	  }
+      {
+        "action": "przezuj",
+        "effect": "<medium_purple>odtr<grey>"
+      }
     ],
     "ususzony_przelot": [
       {
         "action": "sproszkuj",
-        "effect": "<LimeGreen>+kon <medium_purple>o[sk|trad]<grey>"
+        "effect": "<LimeGreen>+kon <medium_purple>odtr<grey>"
       }
     ],
     "ususzony_ranog": [
       {
         "action": "przezuj",
-        "effect": "<LimeGreen>+kon<medium_purple> o[ins]<grey>"
+        "effect": "<LimeGreen>+kon<medium_purple> odtr<grey>"
       }
     ],
     "ususzony_starzec": [
       {
         "action": "sproszkuj",
-        "effect": "<medium_purple>o[sk]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       },
       {
         "action": "zjedz",
-        "effect": "<firebrick>tr[?]<grey>",
+        "effect": "<firebrick>tr<grey>",
         "dont_bind": true
       }
     ],
@@ -2387,11 +2355,11 @@
     "wrotycz": [
       {
         "action": "powachaj",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>odtr?<grey>"
       },
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o[pchly]<grey>"
+        "effect": "<medium_purple>odtr<grey>"
       }
     ]
   }
