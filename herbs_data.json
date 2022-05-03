@@ -1198,7 +1198,7 @@
         "action": "przyloz",
         "effect": "<medium_purple>o[pas]<grey>"
       },
-	  {
+      {
         "action": "zjedz",
         "effect": "<medium_purple>o?<grey>"
       }
@@ -1218,7 +1218,7 @@
         "action": "przezuj",
         "effect": "<medium_purple>o[pok|zak]<grey>"
       },
-	  {
+      {
         "action": "zjedz",
         "effect": "jadalny",
         "dont_bind": true
@@ -1346,7 +1346,7 @@
     "centuria": [
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o[pok]<grey>"
+        "effect": "<medium_purple>o[gad|pok]<grey>"
       }
     ],
     "chaber": [
@@ -1383,11 +1383,11 @@
         "action": "przezuj",
         "effect": "<misty_rose>+od[el]<grey>"
       },
-	  {
-		  "action":"zjedz",
-		  "effect":"--",
-		  "dont_bind":true
-	  }
+      {
+        "action": "zjedz",
+        "effect": "--",
+        "dont_bind": true
+      }
     ],
     "czosnek": [
       {
@@ -1848,12 +1848,12 @@
       }
     ],
     "nawloc": [
-      
+
       {
         "action": "przyloz",
         "effect": "<medium_purple>o[sk]<grey>"
       },
-	  {
+      {
         "action": "rozgryz",
         "effect": "<medium_purple>o[pok]<grey>"
       },
@@ -1865,7 +1865,7 @@
     "nostrzyk": [
       {
         "action": "przezuj",
-        "effect": "<olive_drab>-zmc <medium_purple>o[ins|pok]<grey>"
+        "effect": "<olive_drab>-zmc <medium_purple>o[ins|pok|ros]<grey>"
       },
       {
         "action": "rozgryz",
@@ -1934,7 +1934,7 @@
       {
         "action": "sproszkuj",
         "effect": "<medium_purple>o[pl]<grey>"
-		}
+      }
     ],
     "podbial": [
       {
@@ -2350,10 +2350,10 @@
         "action": "rozgryz",
         "effect": "<gold>+int<grey>"
       },
-	  {
-		  "action":"przezuj",
-		  "effect": "<medium_purple>o[ros?]<grey>"
-	  }
+      {
+        "action": "przezuj",
+        "effect": "<medium_purple>o[ros?]<grey>"
+      }
     ],
     "ususzony_przelot": [
       {
