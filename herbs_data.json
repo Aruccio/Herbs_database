@@ -1306,7 +1306,7 @@
     "bylica_piolun": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|sk?|trad]<grey>"
+        "effect": "<medium_purple>o[pas|trad]<grey>"
       },
       {
         "action": "rozgryz",
@@ -1405,7 +1405,7 @@
     "deren": [
       {
         "action": "przezuj",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>o[sk]<grey>"
       },
       {
         "action": "zjedz",
@@ -2083,7 +2083,7 @@
       },
       {
         "action": "przyloz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>o[sk]<grey>"
       }
     ],
     "serce_kapitana": [
@@ -2183,7 +2183,7 @@
       },
       {
         "action": "zjedz",
-        "effect": "<medium_purple>o?<grey>"
+        "effect": "<medium_purple>o[pok]<grey>"
       }
     ],
     "szczwol": [
@@ -2279,7 +2279,7 @@
       },
       {
         "action": "rozgryz",
-        "effect": "<medium_turquoise>+mana <medium_purple>o?<grey>"
+        "effect": "<medium_turquoise>+mana <medium_purple>o[gad|ins|pok]<grey>"
       },
       {
         "action": "zjedz",
