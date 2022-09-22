@@ -1306,7 +1306,7 @@
     "bylica_piolun": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|trad]<grey>"
+        "effect": "<medium_purple>o[pas|trad|zak]<grey>"
       },
       {
         "action": "rozgryz",
