@@ -2419,20 +2419,20 @@
     ],
     "ziele_stary_toby": [
       {
-        "action": "fajkowe",
-        "effect": "--"
+        "action": "--",
+        "effect": "<royal_blue>fajkowe<grey>"
       }
     ],
     "liscie_z_langunten": [
       {
-        "action": "fajkowe",
-        "effect": "--"
+        "action": "--",
+        "effect": "<royal_blue>fajkowe<grey>"
       }
     ],
     "gwiazda_poludnia": [
       {
-        "action": "fajkowe",
-        "effect": "--"
+        "action": "--",
+        "effect": "<royal_blue>fajkowe<grey>"
       }
     ]
   }
