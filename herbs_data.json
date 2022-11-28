@@ -1164,9 +1164,9 @@
       "mianownik": "wysuszone wonne ziele",
       "dopelniacz": "wysuszonego wonnego ziela",
       "biernik": "wysuszone wonne ziele",
-      "mnoga_mianownik": "wysuszone wonne ziela",
+      "mnoga_mianownik": "wysuszone wonne ziola",
       "mnoga_dopelniacz": "wysuszonych wonnych ziol",
-      "mnoga_biernik": "wysuszone wonne ziela"
+      "mnoga_biernik": "wysuszone wonne ziola"
     },
     "liscie_z_langunten": {
       "mianownik": "zbite aromatyczne liscie",
@@ -1180,9 +1180,9 @@
       "mianownik": "zeschniete zoltawe ziele",
       "dopelniacz": "zeschnietego zoltawego ziela",
       "biernik": "zeschniete zoltawe ziele",
-      "mnoga_mianownik": "zeschniete zoltawe ziela",
+      "mnoga_mianownik": "zeschniete zoltawe ziola",
       "mnoga_dopelniacz": "zeschnietych zoltawych ziol",
-      "mnoga_biernik": "zeschniete zoltawe ziela"
+      "mnoga_biernik": "zeschniete zoltawe ziola"
     }
   },
   "version": 4,
