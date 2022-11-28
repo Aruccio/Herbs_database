@@ -1160,7 +1160,7 @@
       "mnoga_dopelniacz": "zoltych rurkowatych kwiatow",
       "mnoga_biernik": "zolte rurkowate kwiaty"
     },
-    "ziele stary toby": {
+    "ziele_stary_toby": {
       "mianownik": "wysuszone wonne ziele",
       "dopelniacz": "wysuszonego wonnego ziela",
       "biernik": "wysuszone wonne ziele",
@@ -1168,7 +1168,7 @@
       "mnoga_dopelniacz": "wysuszonych wonnych ziol",
       "mnoga_biernik": "wysuszone wonne ziela"
     },
-    "liscie z langunten": {
+    "liscie_z_langunten": {
       "mianownik": "zbite aromatyczne liscie",
       "dopelniacz": "zbitych aromatycznych lisci",
       "biernik": "zbite aromatyczne liscie",
@@ -1176,7 +1176,7 @@
       "mnoga_dopelniacz": "zbitych aromatycznych lisci",
       "mnoga_biernik": "zbite aromatyczne liscie"
     },
-    "gwiazda poludnia": {
+    "gwiazda_poludnia": {
       "mianownik": "zeschniete zoltawe ziele",
       "dopelniacz": "zeschnietego zoltawego ziela",
       "biernik": "zeschniete zoltawe ziele",
@@ -2417,19 +2417,19 @@
         "effect": "<medium_purple>o[pchly]<grey>"
       }
     ],
-    "ziele stary toby": [
+    "ziele_stary_toby": [
       {
         "action": "fajkowe",
         "effect": "--"
       }
     ],
-    "liscie z langunten": [
+    "liscie_z_langunten": [
       {
         "action": "fajkowe",
         "effect": "--"
       }
     ],
-    "gwiazda poludnia": [
+    "gwiazda_poludnia": [
       {
         "action": "fajkowe",
         "effect": "--"
