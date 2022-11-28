@@ -2416,6 +2416,24 @@
         "action": "przyloz",
         "effect": "<medium_purple>o[pchly]<grey>"
       }
+    ],
+    "ziele stary toby": [
+      {
+        "action": "fajkowe",
+        "effect": "--"
+      }
+    ],
+    "liscie z langunten": [
+      {
+        "action": "fajkowe",
+        "effect": "--"
+      }
+    ],
+    "gwiazda poludnia": [
+      {
+        "action": "fajkowe",
+        "effect": "--"
+      }
     ]
   }
 }
