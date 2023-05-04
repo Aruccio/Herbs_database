@@ -1319,7 +1319,7 @@
     "bylica_cytwarowa": [
       {
         "action": "wetrzyj",
-        "effect": "<medium_purple>o[pas|zak?]<grey>"
+        "effect": "<medium_purple>o[pas|zak]<grey>"
       },
       {
         "action": "zjedz",
